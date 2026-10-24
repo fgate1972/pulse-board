@@ -1,0 +1,1330 @@
+{
+ "symbols": {
+  "SPX500": {
+   "tiers": {
+    "A": {
+     "n": 45,
+     "R": 1.26,
+     "win": 69,
+     "risk_minlot_med": 0,
+     "placeable_060": 100
+    },
+    "B": {
+     "n": 44,
+     "R": 1.04,
+     "win": 66,
+     "risk_minlot_med": 0,
+     "placeable_060": 100
+    },
+    "C": {
+     "n": 33,
+     "R": 0.17,
+     "win": 42,
+     "risk_minlot_med": 0,
+     "placeable_060": 100
+    }
+   },
+   "A_h4d1": {
+    "n": 14,
+    "R": 1.83,
+    "win": 79
+   },
+   "models": {
+    "all tiers (A1 B1 C1)": {
+     "full": {
+      "usd_wk": 262,
+      "trades_day": 0.84,
+      "R": 0.89,
+      "win": 61,
+      "maxDD": 2.38,
+      "days_dd5": 0,
+      "losing_wks": 7,
+      "worst_wk": -267,
+      "h1": 296,
+      "h2": 228
+     },
+     "now_cap": {
+      "usd_wk": 262,
+      "trades_day": 0.84,
+      "R": 0.89,
+      "win": 61,
+      "maxDD": 2.38,
+      "days_dd5": 0,
+      "losing_wks": 7,
+      "worst_wk": -267,
+      "h1": 296,
+      "h2": 228
+     },
+     "now_nocap": {
+      "usd_wk": 262,
+      "trades_day": 0.84,
+      "R": 0.89,
+      "win": 61,
+      "maxDD": 2.38,
+      "days_dd5": 0,
+      "losing_wks": 7,
+      "worst_wk": -267,
+      "h1": 296,
+      "h2": 228
+     }
+    },
+    "A2 B1 C0": {
+     "full": {
+      "usd_wk": 386,
+      "trades_day": 0.61,
+      "R": 1.15,
+      "win": 67,
+      "maxDD": 1.61,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -215,
+      "h1": 395,
+      "h2": 378
+     },
+     "now_cap": {
+      "usd_wk": 386,
+      "trades_day": 0.61,
+      "R": 1.15,
+      "win": 67,
+      "maxDD": 1.61,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -215,
+      "h1": 395,
+      "h2": 378
+     },
+     "now_nocap": {
+      "usd_wk": 386,
+      "trades_day": 0.61,
+      "R": 1.15,
+      "win": 67,
+      "maxDD": 1.61,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -215,
+      "h1": 395,
+      "h2": 378
+     }
+    },
+    "A only (x1)": {
+     "full": {
+      "usd_wk": 136,
+      "trades_day": 0.31,
+      "R": 1.26,
+      "win": 69,
+      "maxDD": 0.81,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -133,
+      "h1": 131,
+      "h2": 142
+     },
+     "now_cap": {
+      "usd_wk": 136,
+      "trades_day": 0.31,
+      "R": 1.26,
+      "win": 69,
+      "maxDD": 0.81,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -133,
+      "h1": 131,
+      "h2": 142
+     },
+     "now_nocap": {
+      "usd_wk": 136,
+      "trades_day": 0.31,
+      "R": 1.26,
+      "win": 69,
+      "maxDD": 0.81,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -133,
+      "h1": 131,
+      "h2": 142
+     }
+    },
+    "A only (x2)": {
+     "full": {
+      "usd_wk": 273,
+      "trades_day": 0.31,
+      "R": 1.26,
+      "win": 69,
+      "maxDD": 1.62,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -266,
+      "h1": 262,
+      "h2": 284
+     },
+     "now_cap": {
+      "usd_wk": 273,
+      "trades_day": 0.31,
+      "R": 1.26,
+      "win": 69,
+      "maxDD": 1.62,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -266,
+      "h1": 262,
+      "h2": 284
+     },
+     "now_nocap": {
+      "usd_wk": 273,
+      "trades_day": 0.31,
+      "R": 1.26,
+      "win": 69,
+      "maxDD": 1.62,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -266,
+      "h1": 262,
+      "h2": 284
+     }
+    },
+    "A with H4 & D1 only (x1)": {
+     "full": {
+      "usd_wk": 63,
+      "trades_day": 0.1,
+      "R": 1.83,
+      "win": 79,
+      "maxDD": 0.81,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -145,
+      "h1": 51,
+      "h2": 75
+     },
+     "now_cap": {
+      "usd_wk": 63,
+      "trades_day": 0.1,
+      "R": 1.83,
+      "win": 79,
+      "maxDD": 0.81,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -145,
+      "h1": 51,
+      "h2": 75
+     },
+     "now_nocap": {
+      "usd_wk": 63,
+      "trades_day": 0.1,
+      "R": 1.83,
+      "win": 79,
+      "maxDD": 0.81,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -145,
+      "h1": 51,
+      "h2": 75
+     }
+    },
+    "A with H4 & D1 only (x2)": {
+     "full": {
+      "usd_wk": 126,
+      "trades_day": 0.1,
+      "R": 1.83,
+      "win": 79,
+      "maxDD": 1.62,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -290,
+      "h1": 103,
+      "h2": 149
+     },
+     "now_cap": {
+      "usd_wk": 126,
+      "trades_day": 0.1,
+      "R": 1.83,
+      "win": 79,
+      "maxDD": 1.62,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -290,
+      "h1": 103,
+      "h2": 149
+     },
+     "now_nocap": {
+      "usd_wk": 126,
+      "trades_day": 0.1,
+      "R": 1.83,
+      "win": 79,
+      "maxDD": 1.62,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -290,
+      "h1": 103,
+      "h2": 149
+     }
+    }
+   }
+  },
+  "NAS100": {
+   "tiers": {
+    "A": {
+     "n": 46,
+     "R": 1.22,
+     "win": 78,
+     "risk_minlot_med": 77,
+     "placeable_060": 100
+    },
+    "B": {
+     "n": 49,
+     "R": 0.31,
+     "win": 43,
+     "risk_minlot_med": 86,
+     "placeable_060": 100
+    },
+    "C": {
+     "n": 11,
+     "R": -0.39,
+     "win": 18,
+     "risk_minlot_med": 95,
+     "placeable_060": 100
+    }
+   },
+   "A_h4d1": {
+    "n": 16,
+    "R": 1.11,
+    "win": 75
+   },
+   "models": {
+    "all tiers (A1 B1 C1)": {
+     "full": {
+      "usd_wk": 154,
+      "trades_day": 0.73,
+      "R": 0.63,
+      "win": 56,
+      "maxDD": 2.02,
+      "days_dd5": 0,
+      "losing_wks": 9,
+      "worst_wk": -209,
+      "h1": 157,
+      "h2": 150
+     },
+     "now_cap": {
+      "usd_wk": 157,
+      "trades_day": 0.73,
+      "R": 0.63,
+      "win": 56,
+      "maxDD": 1.97,
+      "days_dd5": 0,
+      "losing_wks": 9,
+      "worst_wk": -206,
+      "h1": 161,
+      "h2": 154
+     },
+     "now_nocap": {
+      "usd_wk": 157,
+      "trades_day": 0.73,
+      "R": 0.63,
+      "win": 56,
+      "maxDD": 1.97,
+      "days_dd5": 0,
+      "losing_wks": 9,
+      "worst_wk": -206,
+      "h1": 161,
+      "h2": 154
+     }
+    },
+    "A2 B1 C0": {
+     "full": {
+      "usd_wk": 300,
+      "trades_day": 0.66,
+      "R": 0.75,
+      "win": 60,
+      "maxDD": 1.65,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -240,
+      "h1": 255,
+      "h2": 344
+     },
+     "now_cap": {
+      "usd_wk": 172,
+      "trades_day": 0.66,
+      "R": 0.75,
+      "win": 60,
+      "maxDD": 1.79,
+      "days_dd5": 0,
+      "losing_wks": 8,
+      "worst_wk": -156,
+      "h1": 161,
+      "h2": 183
+     },
+     "now_nocap": {
+      "usd_wk": 172,
+      "trades_day": 0.66,
+      "R": 0.75,
+      "win": 60,
+      "maxDD": 1.79,
+      "days_dd5": 0,
+      "losing_wks": 8,
+      "worst_wk": -156,
+      "h1": 161,
+      "h2": 183
+     }
+    },
+    "A only (x1)": {
+     "full": {
+      "usd_wk": 131,
+      "trades_day": 0.32,
+      "R": 1.22,
+      "win": 78,
+      "maxDD": 1.22,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -120,
+      "h1": 150,
+      "h2": 111
+     },
+     "now_cap": {
+      "usd_wk": 132,
+      "trades_day": 0.32,
+      "R": 1.22,
+      "win": 78,
+      "maxDD": 1.21,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -119,
+      "h1": 152,
+      "h2": 113
+     },
+     "now_nocap": {
+      "usd_wk": 132,
+      "trades_day": 0.32,
+      "R": 1.22,
+      "win": 78,
+      "maxDD": 1.21,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -119,
+      "h1": 152,
+      "h2": 113
+     }
+    },
+    "A only (x2)": {
+     "full": {
+      "usd_wk": 261,
+      "trades_day": 0.32,
+      "R": 1.22,
+      "win": 78,
+      "maxDD": 2.44,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -240,
+      "h1": 300,
+      "h2": 223
+     },
+     "now_cap": {
+      "usd_wk": 132,
+      "trades_day": 0.32,
+      "R": 1.22,
+      "win": 78,
+      "maxDD": 1.21,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -119,
+      "h1": 152,
+      "h2": 113
+     },
+     "now_nocap": {
+      "usd_wk": 132,
+      "trades_day": 0.32,
+      "R": 1.22,
+      "win": 78,
+      "maxDD": 1.21,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -119,
+      "h1": 152,
+      "h2": 113
+     }
+    },
+    "A with H4 & D1 only (x1)": {
+     "full": {
+      "usd_wk": 30,
+      "trades_day": 0.11,
+      "R": 1.11,
+      "win": 75,
+      "maxDD": 1.22,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -120,
+      "h1": 19,
+      "h2": 41
+     },
+     "now_cap": {
+      "usd_wk": 31,
+      "trades_day": 0.11,
+      "R": 1.11,
+      "win": 75,
+      "maxDD": 1.21,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -119,
+      "h1": 19,
+      "h2": 42
+     },
+     "now_nocap": {
+      "usd_wk": 31,
+      "trades_day": 0.11,
+      "R": 1.11,
+      "win": 75,
+      "maxDD": 1.21,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -119,
+      "h1": 19,
+      "h2": 42
+     }
+    },
+    "A with H4 & D1 only (x2)": {
+     "full": {
+      "usd_wk": 60,
+      "trades_day": 0.11,
+      "R": 1.11,
+      "win": 75,
+      "maxDD": 2.44,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -240,
+      "h1": 38,
+      "h2": 82
+     },
+     "now_cap": {
+      "usd_wk": 31,
+      "trades_day": 0.11,
+      "R": 1.11,
+      "win": 75,
+      "maxDD": 1.21,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -119,
+      "h1": 19,
+      "h2": 42
+     },
+     "now_nocap": {
+      "usd_wk": 31,
+      "trades_day": 0.11,
+      "R": 1.11,
+      "win": 75,
+      "maxDD": 1.21,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -119,
+      "h1": 19,
+      "h2": 42
+     }
+    }
+   }
+  },
+  "GER30": {
+   "tiers": {
+    "A": {
+     "n": 115,
+     "R": 0.98,
+     "win": 67,
+     "risk_minlot_med": 81,
+     "placeable_060": 77
+    },
+    "B": {
+     "n": 85,
+     "R": 0.31,
+     "win": 48,
+     "risk_minlot_med": 92,
+     "placeable_060": 79
+    },
+    "C": {
+     "n": 73,
+     "R": 0.31,
+     "win": 48,
+     "risk_minlot_med": 97,
+     "placeable_060": 75
+    }
+   },
+   "A_h4d1": {
+    "n": 48,
+    "R": 1.28,
+    "win": 77
+   },
+   "models": {
+    "all tiers (A1 B1 C1)": {
+     "full": {
+      "usd_wk": 479,
+      "trades_day": 1.88,
+      "R": 0.59,
+      "win": 56,
+      "maxDD": 4.42,
+      "days_dd5": 0,
+      "losing_wks": 6,
+      "worst_wk": -359,
+      "h1": 590,
+      "h2": 369
+     },
+     "now_cap": {
+      "usd_wk": 313,
+      "trades_day": 1.45,
+      "R": 0.58,
+      "win": 55,
+      "maxDD": 1.85,
+      "days_dd5": 0,
+      "losing_wks": 6,
+      "worst_wk": -153,
+      "h1": 457,
+      "h2": 169
+     },
+     "now_nocap": {
+      "usd_wk": 497,
+      "trades_day": 1.88,
+      "R": 0.59,
+      "win": 56,
+      "maxDD": 3.03,
+      "days_dd5": 0,
+      "losing_wks": 5,
+      "worst_wk": -334,
+      "h1": 619,
+      "h2": 374
+     }
+    },
+    "A2 B1 C0": {
+     "full": {
+      "usd_wk": 749,
+      "trades_day": 1.38,
+      "R": 0.69,
+      "win": 59,
+      "maxDD": 3.78,
+      "days_dd5": 0,
+      "losing_wks": 6,
+      "worst_wk": -364,
+      "h1": 892,
+      "h2": 607
+     },
+     "now_cap": {
+      "usd_wk": 277,
+      "trades_day": 1.07,
+      "R": 0.7,
+      "win": 59,
+      "maxDD": 2.05,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -154,
+      "h1": 324,
+      "h2": 229
+     },
+     "now_nocap": {
+      "usd_wk": 417,
+      "trades_day": 1.38,
+      "R": 0.69,
+      "win": 59,
+      "maxDD": 2.62,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -154,
+      "h1": 512,
+      "h2": 322
+     }
+    },
+    "A only (x1)": {
+     "full": {
+      "usd_wk": 349,
+      "trades_day": 0.79,
+      "R": 0.98,
+      "win": 67,
+      "maxDD": 1.76,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -190,
+      "h1": 369,
+      "h2": 328
+     },
+     "now_cap": {
+      "usd_wk": 215,
+      "trades_day": 0.61,
+      "R": 0.94,
+      "win": 66,
+      "maxDD": 0.86,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -159,
+      "h1": 237,
+      "h2": 193
+     },
+     "now_nocap": {
+      "usd_wk": 354,
+      "trades_day": 0.79,
+      "R": 0.98,
+      "win": 67,
+      "maxDD": 1.53,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -181,
+      "h1": 386,
+      "h2": 322
+     }
+    },
+    "A only (x2)": {
+     "full": {
+      "usd_wk": 697,
+      "trades_day": 0.79,
+      "R": 0.98,
+      "win": 67,
+      "maxDD": 3.52,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -379,
+      "h1": 738,
+      "h2": 657
+     },
+     "now_cap": {
+      "usd_wk": 215,
+      "trades_day": 0.61,
+      "R": 0.94,
+      "win": 66,
+      "maxDD": 0.86,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -159,
+      "h1": 237,
+      "h2": 193
+     },
+     "now_nocap": {
+      "usd_wk": 354,
+      "trades_day": 0.79,
+      "R": 0.98,
+      "win": 67,
+      "maxDD": 1.53,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -181,
+      "h1": 386,
+      "h2": 322
+     }
+    },
+    "A with H4 & D1 only (x1)": {
+     "full": {
+      "usd_wk": 171,
+      "trades_day": 0.33,
+      "R": 1.28,
+      "win": 77,
+      "maxDD": 0.6,
+      "days_dd5": 0,
+      "losing_wks": 2,
+      "worst_wk": -119,
+      "h1": 168,
+      "h2": 173
+     },
+     "now_cap": {
+      "usd_wk": 115,
+      "trades_day": 0.3,
+      "R": 1.15,
+      "win": 74,
+      "maxDD": 0.78,
+      "days_dd5": 0,
+      "losing_wks": 2,
+      "worst_wk": -57,
+      "h1": 114,
+      "h2": 116
+     },
+     "now_nocap": {
+      "usd_wk": 170,
+      "trades_day": 0.33,
+      "R": 1.28,
+      "win": 77,
+      "maxDD": 0.49,
+      "days_dd5": 0,
+      "losing_wks": 2,
+      "worst_wk": -57,
+      "h1": 177,
+      "h2": 164
+     }
+    },
+    "A with H4 & D1 only (x2)": {
+     "full": {
+      "usd_wk": 341,
+      "trades_day": 0.33,
+      "R": 1.28,
+      "win": 77,
+      "maxDD": 1.19,
+      "days_dd5": 0,
+      "losing_wks": 2,
+      "worst_wk": -239,
+      "h1": 337,
+      "h2": 346
+     },
+     "now_cap": {
+      "usd_wk": 115,
+      "trades_day": 0.3,
+      "R": 1.15,
+      "win": 74,
+      "maxDD": 0.78,
+      "days_dd5": 0,
+      "losing_wks": 2,
+      "worst_wk": -57,
+      "h1": 114,
+      "h2": 116
+     },
+     "now_nocap": {
+      "usd_wk": 170,
+      "trades_day": 0.33,
+      "R": 1.28,
+      "win": 77,
+      "maxDD": 0.49,
+      "days_dd5": 0,
+      "losing_wks": 2,
+      "worst_wk": -57,
+      "h1": 177,
+      "h2": 164
+     }
+    }
+   }
+  },
+  "US30": {
+   "tiers": {
+    "A": {
+     "n": 150,
+     "R": 0.73,
+     "win": 61,
+     "risk_minlot_med": 91,
+     "placeable_060": 77
+    },
+    "B": {
+     "n": 144,
+     "R": 0.36,
+     "win": 43,
+     "risk_minlot_med": 92,
+     "placeable_060": 77
+    },
+    "C": {
+     "n": 87,
+     "R": 0.16,
+     "win": 36,
+     "risk_minlot_med": 90,
+     "placeable_060": 67
+    }
+   },
+   "A_h4d1": {
+    "n": 27,
+    "R": 1.94,
+    "win": 93
+   },
+   "models": {
+    "all tiers (A1 B1 C1)": {
+     "full": {
+      "usd_wk": 632,
+      "trades_day": 2.63,
+      "R": 0.46,
+      "win": 49,
+      "maxDD": 5.56,
+      "days_dd5": 1,
+      "losing_wks": 4,
+      "worst_wk": -499,
+      "h1": 735,
+      "h2": 530
+     },
+     "now_cap": {
+      "usd_wk": 375,
+      "trades_day": 1.96,
+      "R": 0.44,
+      "win": 48,
+      "maxDD": 4.2,
+      "days_dd5": 0,
+      "losing_wks": 6,
+      "worst_wk": -458,
+      "h1": 479,
+      "h2": 270
+     },
+     "now_nocap": {
+      "usd_wk": 620,
+      "trades_day": 2.63,
+      "R": 0.46,
+      "win": 49,
+      "maxDD": 5.36,
+      "days_dd5": 1,
+      "losing_wks": 4,
+      "worst_wk": -462,
+      "h1": 725,
+      "h2": 514
+     }
+    },
+    "A2 B1 C0": {
+     "full": {
+      "usd_wk": 967,
+      "trades_day": 2.03,
+      "R": 0.55,
+      "win": 52,
+      "maxDD": 5.46,
+      "days_dd5": 1,
+      "losing_wks": 4,
+      "worst_wk": -435,
+      "h1": 1044,
+      "h2": 890
+     },
+     "now_cap": {
+      "usd_wk": 366,
+      "trades_day": 1.56,
+      "R": 0.52,
+      "win": 50,
+      "maxDD": 3.87,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -368,
+      "h1": 417,
+      "h2": 316
+     },
+     "now_nocap": {
+      "usd_wk": 580,
+      "trades_day": 2.03,
+      "R": 0.55,
+      "win": 52,
+      "maxDD": 3.48,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -368,
+      "h1": 665,
+      "h2": 494
+     }
+    },
+    "A only (x1)": {
+     "full": {
+      "usd_wk": 379,
+      "trades_day": 1.03,
+      "R": 0.73,
+      "win": 61,
+      "maxDD": 2.31,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -110,
+      "h1": 369,
+      "h2": 390
+     },
+     "now_cap": {
+      "usd_wk": 238,
+      "trades_day": 0.79,
+      "R": 0.73,
+      "win": 61,
+      "maxDD": 2.3,
+      "days_dd5": 0,
+      "losing_wks": 6,
+      "worst_wk": -234,
+      "h1": 216,
+      "h2": 261
+     },
+     "now_nocap": {
+      "usd_wk": 366,
+      "trades_day": 1.03,
+      "R": 0.73,
+      "win": 61,
+      "maxDD": 2.3,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -110,
+      "h1": 356,
+      "h2": 376
+     }
+    },
+    "A only (x2)": {
+     "full": {
+      "usd_wk": 759,
+      "trades_day": 1.03,
+      "R": 0.73,
+      "win": 61,
+      "maxDD": 4.61,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -221,
+      "h1": 738,
+      "h2": 780
+     },
+     "now_cap": {
+      "usd_wk": 238,
+      "trades_day": 0.79,
+      "R": 0.73,
+      "win": 61,
+      "maxDD": 2.3,
+      "days_dd5": 0,
+      "losing_wks": 6,
+      "worst_wk": -234,
+      "h1": 216,
+      "h2": 261
+     },
+     "now_nocap": {
+      "usd_wk": 366,
+      "trades_day": 1.03,
+      "R": 0.73,
+      "win": 61,
+      "maxDD": 2.3,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -110,
+      "h1": 356,
+      "h2": 376
+     }
+    },
+    "A with H4 & D1 only (x1)": {
+     "full": {
+      "usd_wk": 174,
+      "trades_day": 0.19,
+      "R": 1.94,
+      "win": 93,
+      "maxDD": 0.63,
+      "days_dd5": 0,
+      "losing_wks": 0,
+      "worst_wk": 22,
+      "h1": 172,
+      "h2": 176
+     },
+     "now_cap": {
+      "usd_wk": 125,
+      "trades_day": 0.14,
+      "R": 2.19,
+      "win": 100,
+      "maxDD": 0.0,
+      "days_dd5": 0,
+      "losing_wks": 0,
+      "worst_wk": 22,
+      "h1": 120,
+      "h2": 131
+     },
+     "now_nocap": {
+      "usd_wk": 167,
+      "trades_day": 0.19,
+      "R": 1.94,
+      "win": 93,
+      "maxDD": 0.63,
+      "days_dd5": 0,
+      "losing_wks": 0,
+      "worst_wk": 22,
+      "h1": 172,
+      "h2": 161
+     }
+    },
+    "A with H4 & D1 only (x2)": {
+     "full": {
+      "usd_wk": 347,
+      "trades_day": 0.19,
+      "R": 1.94,
+      "win": 93,
+      "maxDD": 1.26,
+      "days_dd5": 0,
+      "losing_wks": 0,
+      "worst_wk": 43,
+      "h1": 344,
+      "h2": 351
+     },
+     "now_cap": {
+      "usd_wk": 125,
+      "trades_day": 0.14,
+      "R": 2.19,
+      "win": 100,
+      "maxDD": 0.0,
+      "days_dd5": 0,
+      "losing_wks": 0,
+      "worst_wk": 22,
+      "h1": 120,
+      "h2": 131
+     },
+     "now_nocap": {
+      "usd_wk": 167,
+      "trades_day": 0.19,
+      "R": 1.94,
+      "win": 93,
+      "maxDD": 0.63,
+      "days_dd5": 0,
+      "losing_wks": 0,
+      "worst_wk": 22,
+      "h1": 172,
+      "h2": 161
+     }
+    }
+   }
+  },
+  "UK100": {
+   "tiers": {
+    "A": {
+     "n": 159,
+     "R": 0.82,
+     "win": 67,
+     "risk_minlot_med": 39,
+     "placeable_060": 99
+    },
+    "B": {
+     "n": 234,
+     "R": 0.52,
+     "win": 53,
+     "risk_minlot_med": 36,
+     "placeable_060": 100
+    },
+    "C": {
+     "n": 143,
+     "R": 0.21,
+     "win": 44,
+     "risk_minlot_med": 40,
+     "placeable_060": 100
+    }
+   },
+   "A_h4d1": {
+    "n": 74,
+    "R": 0.67,
+    "win": 70
+   },
+   "models": {
+    "all tiers (A1 B1 C1)": {
+     "full": {
+      "usd_wk": 480,
+      "trades_day": 3.7,
+      "R": 0.53,
+      "win": 55,
+      "maxDD": 9.12,
+      "days_dd5": 18,
+      "losing_wks": 6,
+      "worst_wk": -929,
+      "h1": 708,
+      "h2": 252
+     },
+     "now_cap": {
+      "usd_wk": 430,
+      "trades_day": 3.69,
+      "R": 0.53,
+      "win": 55,
+      "maxDD": 2.51,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -389,
+      "h1": 594,
+      "h2": 266
+     },
+     "now_nocap": {
+      "usd_wk": 428,
+      "trades_day": 3.7,
+      "R": 0.53,
+      "win": 55,
+      "maxDD": 2.51,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -389,
+      "h1": 589,
+      "h2": 266
+     }
+    },
+    "A2 B1 C0": {
+     "full": {
+      "usd_wk": 689,
+      "trades_day": 2.71,
+      "R": 0.64,
+      "win": 59,
+      "maxDD": 5.11,
+      "days_dd5": 1,
+      "losing_wks": 7,
+      "worst_wk": -815,
+      "h1": 899,
+      "h2": 479
+     },
+     "now_cap": {
+      "usd_wk": 385,
+      "trades_day": 2.7,
+      "R": 0.65,
+      "win": 59,
+      "maxDD": 1.58,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -221,
+      "h1": 462,
+      "h2": 308
+     },
+     "now_nocap": {
+      "usd_wk": 383,
+      "trades_day": 2.71,
+      "R": 0.64,
+      "win": 59,
+      "maxDD": 1.58,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -221,
+      "h1": 452,
+      "h2": 313
+     }
+    },
+    "A only (x1)": {
+     "full": {
+      "usd_wk": 245,
+      "trades_day": 1.1,
+      "R": 0.82,
+      "win": 67,
+      "maxDD": 1.77,
+      "days_dd5": 0,
+      "losing_wks": 2,
+      "worst_wk": -336,
+      "h1": 347,
+      "h2": 143
+     },
+     "now_cap": {
+      "usd_wk": 188,
+      "trades_day": 1.09,
+      "R": 0.83,
+      "win": 67,
+      "maxDD": 0.92,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -184,
+      "h1": 268,
+      "h2": 107
+     },
+     "now_nocap": {
+      "usd_wk": 185,
+      "trades_day": 1.1,
+      "R": 0.82,
+      "win": 67,
+      "maxDD": 0.92,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -184,
+      "h1": 261,
+      "h2": 110
+     }
+    },
+    "A only (x2)": {
+     "full": {
+      "usd_wk": 491,
+      "trades_day": 1.1,
+      "R": 0.82,
+      "win": 67,
+      "maxDD": 3.53,
+      "days_dd5": 0,
+      "losing_wks": 2,
+      "worst_wk": -673,
+      "h1": 694,
+      "h2": 287
+     },
+     "now_cap": {
+      "usd_wk": 188,
+      "trades_day": 1.09,
+      "R": 0.83,
+      "win": 67,
+      "maxDD": 0.92,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -184,
+      "h1": 268,
+      "h2": 107
+     },
+     "now_nocap": {
+      "usd_wk": 185,
+      "trades_day": 1.1,
+      "R": 0.82,
+      "win": 67,
+      "maxDD": 0.92,
+      "days_dd5": 0,
+      "losing_wks": 1,
+      "worst_wk": -184,
+      "h1": 261,
+      "h2": 110
+     }
+    },
+    "A with H4 & D1 only (x1)": {
+     "full": {
+      "usd_wk": 93,
+      "trades_day": 0.51,
+      "R": 0.67,
+      "win": 70,
+      "maxDD": 2.17,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -221,
+      "h1": 152,
+      "h2": 33
+     },
+     "now_cap": {
+      "usd_wk": 65,
+      "trades_day": 0.51,
+      "R": 0.67,
+      "win": 70,
+      "maxDD": 0.88,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -117,
+      "h1": 95,
+      "h2": 36
+     },
+     "now_nocap": {
+      "usd_wk": 65,
+      "trades_day": 0.51,
+      "R": 0.67,
+      "win": 70,
+      "maxDD": 0.88,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -117,
+      "h1": 95,
+      "h2": 36
+     }
+    },
+    "A with H4 & D1 only (x2)": {
+     "full": {
+      "usd_wk": 186,
+      "trades_day": 0.51,
+      "R": 0.67,
+      "win": 70,
+      "maxDD": 4.33,
+      "days_dd5": 0,
+      "losing_wks": 4,
+      "worst_wk": -442,
+      "h1": 305,
+      "h2": 67
+     },
+     "now_cap": {
+      "usd_wk": 65,
+      "trades_day": 0.51,
+      "R": 0.67,
+      "win": 70,
+      "maxDD": 0.88,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -117,
+      "h1": 95,
+      "h2": 36
+     },
+     "now_nocap": {
+      "usd_wk": 65,
+      "trades_day": 0.51,
+      "R": 0.67,
+      "win": 70,
+      "maxDD": 0.88,
+      "days_dd5": 0,
+      "losing_wks": 3,
+      "worst_wk": -117,
+      "h1": 95,
+      "h2": 36
+     }
+    }
+   }
+  }
+ },
+ "combined": {
+  "now (min lot, cap 0.6%)": {
+   "usd_wk": 842,
+   "trades_day": 2.26,
+   "R": 1.05,
+   "win": 70,
+   "maxDD": 2.11,
+   "days_dd5": 0,
+   "losing_wks": 7,
+   "worst_wk": -215,
+   "h1": 885,
+   "h2": 799
+  },
+  "full strength (A x2)": {
+   "usd_wk": 1626,
+   "trades_day": 2.34,
+   "R": 1.08,
+   "win": 71,
+   "maxDD": 3.92,
+   "days_dd5": 0,
+   "losing_wks": 7,
+   "worst_wk": -673,
+   "h1": 1712,
+   "h2": 1540
+  }
+ }
+}

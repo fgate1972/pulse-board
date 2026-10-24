@@ -1,0 +1,196 @@
+{
+ "out": {
+  "AUDNZD": "A +0.55 on 51 positions, -$440/wk as a whole: not worth the work",
+  "BTCUSD": "A +0.76 but 0.3/day, 75% placeable, spread 41% of a 15-min range: not worth the work"
+ },
+ "rules": {
+  "USDJPY": {
+   "N": 6,
+   "risk": 0.2,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "B +0.22 (+0.52 / +0.10): nothing in the 2nd half"
+  },
+  "NZDJPY": {
+   "N": 5,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "AUDJPY": {
+   "N": 5,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "B +0.10 (-0.01 / +0.29): nothing"
+  },
+  "CADJPY": {
+   "N": 5,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "EURUSD": {
+   "N": 4,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "EURJPY": {
+   "N": 6,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "GBPUSD": {
+   "N": 4,
+   "risk": 0.2,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "SPX500": {
+   "N": 5,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "XAUUSD": {
+   "N": 6,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "USDCHF": {
+   "N": 4,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "USDCAD": {
+   "N": 5,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 1.0,
+   "C": 0.0,
+   "note": "B on: profitable both halves"
+  },
+  "USOil": {
+   "N": 5,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "B +0.62 (+0.35 / +0.86) but only 86 positions and the 1st half is thin: A only until it proves B"
+  },
+  "GBPJPY": {
+   "N": 4,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +0.68 (.66/.71)",
+   "index_cap": null,
+   "need_h4_and_d1": false
+  },
+  "AUDUSD": {
+   "N": 5,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +1.18 (1.23/1.12)",
+   "index_cap": null,
+   "need_h4_and_d1": false
+  },
+  "EURAUD": {
+   "N": 4,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +0.86 (1.03/.67)",
+   "index_cap": null,
+   "need_h4_and_d1": false
+  },
+  "GBPAUD": {
+   "N": 4,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +0.93 (.90/.96) - keep A only; Paul: can go if it disappoints",
+   "index_cap": null,
+   "need_h4_and_d1": false
+  },
+  "NZDUSD": {
+   "N": 4,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +0.95 (.98/.93)",
+   "index_cap": null,
+   "need_h4_and_d1": false
+  },
+  "UK100": {
+   "N": 3,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +0.82 (1.08/.54)",
+   "index_cap": null,
+   "need_h4_and_d1": false
+  },
+  "NAS100": {
+   "N": 4,
+   "risk": 0.3,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +1.22 (1.14/1.28), 0.01 lot, cap 0.6%",
+   "index_cap": 0.006,
+   "need_h4_and_d1": false
+  },
+  "GER30": {
+   "N": 4,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +0.98 (1.02/.93), 0.01 lot, cap 0.6%",
+   "index_cap": 0.006,
+   "need_h4_and_d1": false
+  },
+  "US30": {
+   "N": 3,
+   "risk": 0.4,
+   "A": 2.0,
+   "B": 0.0,
+   "C": 0.0,
+   "note": "A +0.73 (.68/.79): A only with H4 AND D1, 0.01 lot, cap 0.6%",
+   "index_cap": 0.006,
+   "need_h4_and_d1": true
+  }
+ },
+ "set_by": "Paul, Sat 24 Oct 2026",
+ "model": "A x2, B x1 where profitable, C never"
+}
