@@ -1,0 +1,880 @@
+{
+ "models": {
+  "11 book symbols": {
+   "authorized (A1 B1 C1)": {
+    "usd_wk": 3688,
+    "trades_day": 20.1,
+    "R_per": 0.66,
+    "maxDD": 4.18,
+    "days_dd5": 0,
+    "losing_wks": 0,
+    "worst_wk": 329,
+    "h2_usd_wk": 3359
+   },
+   "A2 B1 C0.5": {
+    "usd_wk": 5874,
+    "trades_day": 20.1,
+    "R_per": 0.66,
+    "maxDD": 5.1,
+    "days_dd5": 1,
+    "losing_wks": 0,
+    "worst_wk": 293,
+    "h2_usd_wk": 5468
+   },
+   "A2 B1 C0": {
+    "usd_wk": 5751,
+    "trades_day": 15.7,
+    "R_per": 0.78,
+    "maxDD": 4.88,
+    "days_dd5": 0,
+    "losing_wks": 0,
+    "worst_wk": 200,
+    "h2_usd_wk": 5375
+   },
+   "A2 B1.5 C0": {
+    "usd_wk": 6318,
+    "trades_day": 15.7,
+    "R_per": 0.78,
+    "maxDD": 6.17,
+    "days_dd5": 2,
+    "losing_wks": 0,
+    "worst_wk": 243,
+    "h2_usd_wk": 5861
+   },
+   "A2 B0.5 C0": {
+    "usd_wk": 5184,
+    "trades_day": 15.7,
+    "R_per": 0.78,
+    "maxDD": 3.93,
+    "days_dd5": 0,
+    "losing_wks": 0,
+    "worst_wk": 157,
+    "h2_usd_wk": 4889
+   },
+   "A1.5 B1 C0": {
+    "usd_wk": 4597,
+    "trades_day": 15.7,
+    "R_per": 0.78,
+    "maxDD": 4.3,
+    "days_dd5": 0,
+    "losing_wks": 0,
+    "worst_wk": 172,
+    "h2_usd_wk": 4274
+   },
+   "A1 B0 C0 (A only)": {
+    "usd_wk": 2308,
+    "trades_day": 8.0,
+    "R_per": 1.01,
+    "maxDD": 2.35,
+    "days_dd5": 0,
+    "losing_wks": 0,
+    "worst_wk": 57,
+    "h2_usd_wk": 2202
+   },
+   "A2 B0 C0 (A only, double)": {
+    "usd_wk": 4617,
+    "trades_day": 8.0,
+    "R_per": 1.01,
+    "maxDD": 4.71,
+    "days_dd5": 0,
+    "losing_wks": 0,
+    "worst_wk": 114,
+    "h2_usd_wk": 4403
+   },
+   "A3 B0 C0": {
+    "usd_wk": 6925,
+    "trades_day": 8.0,
+    "R_per": 1.01,
+    "maxDD": 7.06,
+    "days_dd5": 4,
+    "losing_wks": 0,
+    "worst_wk": 171,
+    "h2_usd_wk": 6605
+   }
+  },
+  "11 + 9 FX/commodity extras (A only on the extras)": {
+   "authorized (A1 B1 C1)": {
+    "usd_wk": 4303,
+    "trades_day": 24.5,
+    "R_per": 0.69,
+    "maxDD": 5.49,
+    "days_dd5": 2,
+    "losing_wks": 1,
+    "worst_wk": -40,
+    "h2_usd_wk": 3901
+   },
+   "A2 B1 C0.5": {
+    "usd_wk": 7103,
+    "trades_day": 24.5,
+    "R_per": 0.69,
+    "maxDD": 8.06,
+    "days_dd5": 6,
+    "losing_wks": 1,
+    "worst_wk": -80,
+    "h2_usd_wk": 6582
+   },
+   "A2 B1 C0": {
+    "usd_wk": 6981,
+    "trades_day": 20.1,
+    "R_per": 0.79,
+    "maxDD": 7.85,
+    "days_dd5": 5,
+    "losing_wks": 1,
+    "worst_wk": -80,
+    "h2_usd_wk": 6496
+   },
+   "A2 B1.5 C0": {
+    "usd_wk": 7548,
+    "trades_day": 20.1,
+    "R_per": 0.79,
+    "maxDD": 8.78,
+    "days_dd5": 8,
+    "losing_wks": 1,
+    "worst_wk": -80,
+    "h2_usd_wk": 6978
+   },
+   "A2 B0.5 C0": {
+    "usd_wk": 6414,
+    "trades_day": 20.1,
+    "R_per": 0.79,
+    "maxDD": 7.34,
+    "days_dd5": 5,
+    "losing_wks": 1,
+    "worst_wk": -80,
+    "h2_usd_wk": 6014
+   },
+   "A1.5 B1 C0": {
+    "usd_wk": 5519,
+    "trades_day": 20.1,
+    "R_per": 0.79,
+    "maxDD": 6.26,
+    "days_dd5": 2,
+    "losing_wks": 1,
+    "worst_wk": -60,
+    "h2_usd_wk": 5113
+   },
+   "A1 B0 C0 (A only)": {
+    "usd_wk": 2923,
+    "trades_day": 12.4,
+    "R_per": 0.95,
+    "maxDD": 3.41,
+    "days_dd5": 0,
+    "losing_wks": 1,
+    "worst_wk": -40,
+    "h2_usd_wk": 2766
+   },
+   "A2 B0 C0 (A only, double)": {
+    "usd_wk": 5846,
+    "trades_day": 12.4,
+    "R_per": 0.95,
+    "maxDD": 6.82,
+    "days_dd5": 4,
+    "losing_wks": 1,
+    "worst_wk": -80,
+    "h2_usd_wk": 5532
+   },
+   "A3 B0 C0": {
+    "usd_wk": 8769,
+    "trades_day": 12.4,
+    "R_per": 0.95,
+    "maxDD": 10.24,
+    "days_dd5": 13,
+    "losing_wks": 1,
+    "worst_wk": -119,
+    "h2_usd_wk": 8298
+   }
+  },
+  "all 23 incl. 4 indexes (A only on extras and indexes, indexes at min lot, risk <= 0.6%)": {
+   "authorized (A1 B1 C1)": {
+    "usd_wk": 5076,
+    "trades_day": 27.2,
+    "R_per": 0.72,
+    "maxDD": 5.52,
+    "days_dd5": 2,
+    "losing_wks": 0,
+    "worst_wk": 121,
+    "h2_usd_wk": 4668
+   },
+   "A2 B1 C0.5": {
+    "usd_wk": 8650,
+    "trades_day": 27.2,
+    "R_per": 0.72,
+    "maxDD": 8.51,
+    "days_dd5": 5,
+    "losing_wks": 0,
+    "worst_wk": 242,
+    "h2_usd_wk": 8101
+   },
+   "A2 B1 C0": {
+    "usd_wk": 8527,
+    "trades_day": 22.8,
+    "R_per": 0.81,
+    "maxDD": 8.28,
+    "days_dd5": 5,
+    "losing_wks": 0,
+    "worst_wk": 200,
+    "h2_usd_wk": 8013
+   },
+   "A2 B1.5 C0": {
+    "usd_wk": 9095,
+    "trades_day": 22.8,
+    "R_per": 0.81,
+    "maxDD": 9.21,
+    "days_dd5": 7,
+    "losing_wks": 0,
+    "worst_wk": 242,
+    "h2_usd_wk": 8498
+   },
+   "A2 B0.5 C0": {
+    "usd_wk": 7960,
+    "trades_day": 22.8,
+    "R_per": 0.81,
+    "maxDD": 7.36,
+    "days_dd5": 4,
+    "losing_wks": 0,
+    "worst_wk": 157,
+    "h2_usd_wk": 7528
+   },
+   "A1.5 B1 C0": {
+    "usd_wk": 6679,
+    "trades_day": 22.8,
+    "R_per": 0.81,
+    "maxDD": 6.67,
+    "days_dd5": 2,
+    "losing_wks": 0,
+    "worst_wk": 172,
+    "h2_usd_wk": 6252
+   },
+   "A1 B0 C0 (A only)": {
+    "usd_wk": 3696,
+    "trades_day": 15.1,
+    "R_per": 0.94,
+    "maxDD": 3.41,
+    "days_dd5": 0,
+    "losing_wks": 0,
+    "worst_wk": 57,
+    "h2_usd_wk": 3522
+   },
+   "A2 B0 C0 (A only, double)": {
+    "usd_wk": 7393,
+    "trades_day": 15.1,
+    "R_per": 0.94,
+    "maxDD": 6.82,
+    "days_dd5": 3,
+    "losing_wks": 0,
+    "worst_wk": 114,
+    "h2_usd_wk": 7043
+   },
+   "A3 B0 C0": {
+    "usd_wk": 11089,
+    "trades_day": 15.1,
+    "R_per": 0.94,
+    "maxDD": 10.24,
+    "days_dd5": 12,
+    "losing_wks": 0,
+    "worst_wk": 171,
+    "h2_usd_wk": 10565
+   }
+  }
+ },
+ "symbols": {
+  "AUDJPY": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 61,
+     "R": 1.24,
+     "usd_wk": 192,
+     "per_day": 0.42,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 44,
+     "R": 0.1,
+     "usd_wk": 2,
+     "per_day": 0.3,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 33,
+     "R": 0.34,
+     "usd_wk": 25,
+     "per_day": 0.23,
+     "risk_minlot": null
+    }
+   }
+  },
+  "AUDNZD": {
+   "group": "fx",
+   "tiers": {
+    "A": {
+     "n": 51,
+     "R": 0.55,
+     "usd_wk": -11,
+     "per_day": 0.35,
+     "risk_minlot": 1
+    },
+    "B": {
+     "n": 79,
+     "R": 0.13,
+     "usd_wk": -123,
+     "per_day": 0.54,
+     "risk_minlot": 1
+    },
+    "C": {
+     "n": 129,
+     "R": -0.15,
+     "usd_wk": -307,
+     "per_day": 0.89,
+     "risk_minlot": 1
+    }
+   }
+  },
+  "AUDUSD": {
+   "group": "fx",
+   "tiers": {
+    "A": {
+     "n": 58,
+     "R": 1.18,
+     "usd_wk": 137,
+     "per_day": 0.4,
+     "risk_minlot": 1
+    },
+    "B": {
+     "n": 96,
+     "R": 0.45,
+     "usd_wk": 31,
+     "per_day": 0.66,
+     "risk_minlot": 1
+    },
+    "C": {
+     "n": 79,
+     "R": 0.27,
+     "usd_wk": -13,
+     "per_day": 0.54,
+     "risk_minlot": 1
+    }
+   }
+  },
+  "BTCUSD": {
+   "group": "fx",
+   "tiers": {
+    "A": {
+     "n": 33,
+     "R": 0.76,
+     "usd_wk": 28,
+     "per_day": 0.23,
+     "risk_minlot": 55
+    },
+    "B": {
+     "n": 55,
+     "R": 0.46,
+     "usd_wk": 20,
+     "per_day": 0.38,
+     "risk_minlot": 53
+    },
+    "C": {
+     "n": 38,
+     "R": 0.15,
+     "usd_wk": -7,
+     "per_day": 0.26,
+     "risk_minlot": 74
+    }
+   }
+  },
+  "CADJPY": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 94,
+     "R": 0.92,
+     "usd_wk": 219,
+     "per_day": 0.65,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 112,
+     "R": 0.86,
+     "usd_wk": 244,
+     "per_day": 0.77,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 99,
+     "R": 0.32,
+     "usd_wk": 71,
+     "per_day": 0.68,
+     "risk_minlot": null
+    }
+   }
+  },
+  "EURAUD": {
+   "group": "fx",
+   "tiers": {
+    "A": {
+     "n": 111,
+     "R": 0.86,
+     "usd_wk": 93,
+     "per_day": 0.77,
+     "risk_minlot": 2
+    },
+    "B": {
+     "n": 136,
+     "R": 0.03,
+     "usd_wk": -121,
+     "per_day": 0.94,
+     "risk_minlot": 1
+    },
+    "C": {
+     "n": 82,
+     "R": 0.26,
+     "usd_wk": -26,
+     "per_day": 0.57,
+     "risk_minlot": 2
+    }
+   }
+  },
+  "EURJPY": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 134,
+     "R": 0.7,
+     "usd_wk": 180,
+     "per_day": 0.92,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 116,
+     "R": 0.52,
+     "usd_wk": 115,
+     "per_day": 0.8,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 65,
+     "R": 0.1,
+     "usd_wk": 9,
+     "per_day": 0.45,
+     "risk_minlot": null
+    }
+   }
+  },
+  "EURUSD": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 160,
+     "R": 1.02,
+     "usd_wk": 424,
+     "per_day": 1.1,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 199,
+     "R": 0.32,
+     "usd_wk": 148,
+     "per_day": 1.37,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 87,
+     "R": 0.36,
+     "usd_wk": 74,
+     "per_day": 0.6,
+     "risk_minlot": null
+    }
+   }
+  },
+  "GBPAUD": {
+   "group": "fx",
+   "tiers": {
+    "A": {
+     "n": 62,
+     "R": 0.93,
+     "usd_wk": 35,
+     "per_day": 0.43,
+     "risk_minlot": 1
+    },
+    "B": {
+     "n": 87,
+     "R": 0.29,
+     "usd_wk": -62,
+     "per_day": 0.6,
+     "risk_minlot": 1
+    },
+    "C": {
+     "n": 58,
+     "R": 0.1,
+     "usd_wk": -61,
+     "per_day": 0.4,
+     "risk_minlot": 1
+    }
+   }
+  },
+  "GBPJPY": {
+   "group": "fx",
+   "tiers": {
+    "A": {
+     "n": 140,
+     "R": 0.68,
+     "usd_wk": 121,
+     "per_day": 0.97,
+     "risk_minlot": 2
+    },
+    "B": {
+     "n": 126,
+     "R": 0.44,
+     "usd_wk": 46,
+     "per_day": 0.87,
+     "risk_minlot": 2
+    },
+    "C": {
+     "n": 97,
+     "R": 0.12,
+     "usd_wk": -25,
+     "per_day": 0.67,
+     "risk_minlot": 3
+    }
+   }
+  },
+  "GBPUSD": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 158,
+     "R": 0.81,
+     "usd_wk": 166,
+     "per_day": 1.09,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 174,
+     "R": 0.63,
+     "usd_wk": 140,
+     "per_day": 1.2,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 105,
+     "R": 0.22,
+     "usd_wk": 26,
+     "per_day": 0.72,
+     "risk_minlot": null
+    }
+   }
+  },
+  "GER30": {
+   "group": "index",
+   "tiers": {
+    "A": {
+     "n": 115,
+     "R": 0.98,
+     "usd_wk": 349,
+     "per_day": 0.79,
+     "risk_minlot": 81
+    },
+    "B": {
+     "n": 85,
+     "R": 0.31,
+     "usd_wk": 52,
+     "per_day": 0.59,
+     "risk_minlot": 92
+    },
+    "C": {
+     "n": 73,
+     "R": 0.31,
+     "usd_wk": 79,
+     "per_day": 0.5,
+     "risk_minlot": 97
+    }
+   }
+  },
+  "NAS100": {
+   "group": "index",
+   "tiers": {
+    "A": {
+     "n": 46,
+     "R": 1.22,
+     "usd_wk": 131,
+     "per_day": 0.32,
+     "risk_minlot": 77
+    },
+    "B": {
+     "n": 49,
+     "R": 0.31,
+     "usd_wk": 38,
+     "per_day": 0.34,
+     "risk_minlot": 86
+    },
+    "C": {
+     "n": 11,
+     "R": -0.39,
+     "usd_wk": -15,
+     "per_day": 0.08,
+     "risk_minlot": 95
+    }
+   }
+  },
+  "NZDJPY": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 112,
+     "R": 1.0,
+     "usd_wk": 216,
+     "per_day": 0.77,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 97,
+     "R": 0.51,
+     "usd_wk": 88,
+     "per_day": 0.67,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 48,
+     "R": -0.02,
+     "usd_wk": -9,
+     "per_day": 0.33,
+     "risk_minlot": null
+    }
+   }
+  },
+  "NZDUSD": {
+   "group": "fx",
+   "tiers": {
+    "A": {
+     "n": 93,
+     "R": 0.95,
+     "usd_wk": 118,
+     "per_day": 0.64,
+     "risk_minlot": 1
+    },
+    "B": {
+     "n": 115,
+     "R": 0.19,
+     "usd_wk": -33,
+     "per_day": 0.79,
+     "risk_minlot": 1
+    },
+    "C": {
+     "n": 91,
+     "R": 0.18,
+     "usd_wk": -29,
+     "per_day": 0.63,
+     "risk_minlot": 1
+    }
+   }
+  },
+  "SPX500": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 45,
+     "R": 1.26,
+     "usd_wk": 136,
+     "per_day": 0.31,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 44,
+     "R": 1.04,
+     "usd_wk": 114,
+     "per_day": 0.3,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 33,
+     "R": 0.17,
+     "usd_wk": 12,
+     "per_day": 0.23,
+     "risk_minlot": null
+    }
+   }
+  },
+  "UK100": {
+   "group": "index",
+   "tiers": {
+    "A": {
+     "n": 159,
+     "R": 0.82,
+     "usd_wk": 245,
+     "per_day": 1.1,
+     "risk_minlot": 39
+    },
+    "B": {
+     "n": 234,
+     "R": 0.52,
+     "usd_wk": 198,
+     "per_day": 1.61,
+     "risk_minlot": 36
+    },
+    "C": {
+     "n": 143,
+     "R": 0.21,
+     "usd_wk": 36,
+     "per_day": 0.99,
+     "risk_minlot": 40
+    }
+   }
+  },
+  "US30": {
+   "group": "index",
+   "tiers": {
+    "A": {
+     "n": 150,
+     "R": 0.73,
+     "usd_wk": 379,
+     "per_day": 1.03,
+     "risk_minlot": 91
+    },
+    "B": {
+     "n": 144,
+     "R": 0.36,
+     "usd_wk": 209,
+     "per_day": 0.99,
+     "risk_minlot": 92
+    },
+    "C": {
+     "n": 87,
+     "R": 0.16,
+     "usd_wk": 44,
+     "per_day": 0.6,
+     "risk_minlot": 90
+    }
+   }
+  },
+  "USDCAD": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 84,
+     "R": 1.26,
+     "usd_wk": 242,
+     "per_day": 0.58,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 62,
+     "R": 0.54,
+     "usd_wk": 62,
+     "per_day": 0.43,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 22,
+     "R": -0.43,
+     "usd_wk": -36,
+     "per_day": 0.15,
+     "risk_minlot": null
+    }
+   }
+  },
+  "USDCHF": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 85,
+     "R": 1.08,
+     "usd_wk": 146,
+     "per_day": 0.59,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 95,
+     "R": 0.53,
+     "usd_wk": 63,
+     "per_day": 0.66,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 54,
+     "R": 0.43,
+     "usd_wk": 26,
+     "per_day": 0.37,
+     "risk_minlot": null
+    }
+   }
+  },
+  "USDJPY": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 113,
+     "R": 0.98,
+     "usd_wk": 143,
+     "per_day": 0.78,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 54,
+     "R": 0.22,
+     "usd_wk": 13,
+     "per_day": 0.37,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 33,
+     "R": 0.08,
+     "usd_wk": 2,
+     "per_day": 0.23,
+     "risk_minlot": null
+    }
+   }
+  },
+  "USOil": {
+   "group": "fx",
+   "tiers": {
+    "A": {
+     "n": 91,
+     "R": 0.81,
+     "usd_wk": 93,
+     "per_day": 0.63,
+     "risk_minlot": 10
+    },
+    "B": {
+     "n": 86,
+     "R": 0.62,
+     "usd_wk": 67,
+     "per_day": 0.59,
+     "risk_minlot": 12
+    },
+    "C": {
+     "n": 25,
+     "R": -0.3,
+     "usd_wk": -29,
+     "per_day": 0.17,
+     "risk_minlot": 11
+    }
+   }
+  },
+  "XAUUSD": {
+   "group": "book",
+   "tiers": {
+    "A": {
+     "n": 116,
+     "R": 1.25,
+     "usd_wk": 243,
+     "per_day": 0.8,
+     "risk_minlot": null
+    },
+    "B": {
+     "n": 119,
+     "R": 0.74,
+     "usd_wk": 147,
+     "per_day": 0.82,
+     "risk_minlot": null
+    },
+    "C": {
+     "n": 58,
+     "R": 0.42,
+     "usd_wk": 44,
+     "per_day": 0.4,
+     "risk_minlot": null
+    }
+   }
+  }
+ }
+}
