@@ -66,7 +66,7 @@
    "A": 2.0,
    "B": 1.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "A2 B1 C0 at full size (0.01 lot = $0.10/pt, always placeable)"
   },
   "XAUUSD": {
    "N": 6,
@@ -156,7 +156,7 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.82 (1.08/.54)",
+   "note": "A only x2 (placeable at 0.01 lot)",
    "index_cap": null,
    "need_h4_and_d1": false
   },
@@ -166,9 +166,9 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +1.22 (1.14/1.28), 0.01 lot, cap 0.6%",
+   "note": "A +1.22 (1.14/1.28) - WAY 3: A only with H4 AND D1, 0.01 lot, cap 0.6% (stage 1); stage 2 at $25k: A only x2 sized (NAS100, GER30); stage 3 at $45k: US30",
    "index_cap": 0.006,
-   "need_h4_and_d1": false
+   "need_h4_and_d1": true
   },
   "GER30": {
    "N": 4,
@@ -176,9 +176,9 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.98 (1.02/.93), 0.01 lot, cap 0.6%",
+   "note": "A +0.98 (1.02/.93) - WAY 3: A only with H4 AND D1, 0.01 lot, cap 0.6% (stage 1); stage 2 at $25k: A only x2 sized (NAS100, GER30); stage 3 at $45k: US30",
    "index_cap": 0.006,
-   "need_h4_and_d1": false
+   "need_h4_and_d1": true
   },
   "US30": {
    "N": 3,
@@ -186,11 +186,16 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.73 (.68/.79): A only with H4 AND D1, 0.01 lot, cap 0.6%",
+   "note": "A +0.73 (.68/.79): A only with H4 AND D1 - WAY 3: A only with H4 AND D1, 0.01 lot, cap 0.6% (stage 1); stage 2 at $25k: A only x2 sized (NAS100, GER30); stage 3 at $45k: US30",
    "index_cap": 0.006,
    "need_h4_and_d1": true
   }
  },
  "set_by": "Paul, Sat 24 Oct 2026",
- "model": "A x2, B x1 where profitable, C never"
+ "model": "A x2, B x1 where profitable, C never",
+ "stages": {
+  "1 (now, $20k)": "NAS100/GER30/US30 way 3 at 0.01 lot cap 0.6%; SPX A2 B1; UK100 A only",
+  "2 ($25k)": "NAS100, GER30 -> A only x2, sized",
+  "3 ($45k)": "US30 -> A only x2, sized"
+ }
 }
