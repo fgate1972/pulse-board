@@ -1,0 +1,126 @@
+{
+ "grades": {
+  "A": {
+   "n": 1419,
+   "R": 0.829,
+   "h1": 0.877,
+   "h2": 0.776,
+   "win": 63
+  },
+  "A+": {
+   "n": 551,
+   "R": 1.343,
+   "h1": 1.342,
+   "h2": 1.343,
+   "win": 78
+  },
+  "A-": {
+   "n": 750,
+   "R": 0.609,
+   "h1": 0.685,
+   "h2": 0.538,
+   "win": 56
+  },
+  "B+": {
+   "n": 966,
+   "R": 0.456,
+   "h1": 0.456,
+   "h2": 0.455,
+   "win": 50
+  },
+  "B-": {
+   "n": 1049,
+   "R": 0.355,
+   "h1": 0.499,
+   "h2": 0.195,
+   "win": 47
+  },
+  "C": {
+   "n": 1109,
+   "R": 0.17,
+   "h1": 0.36,
+   "h2": 0.03,
+   "win": 41
+  }
+ },
+ "models": {
+  "as set (A x2, B x1 where on, C 0)": {
+   "usd_wk": 8562,
+   "h1": 9557,
+   "h2": 7567,
+   "maxDD": 8.8,
+   "trades_day": 28.3,
+   "R_live": 0.728
+  },
+  "v2: A+ x2, A x2, A- x2, B+ x1, B- x0": {
+   "usd_wk": 8544,
+   "h1": 9258,
+   "h2": 7829,
+   "maxDD": 9.81,
+   "trades_day": 23.1,
+   "R_live": 0.8,
+   "losing_wks": 0,
+   "worst_wk": 70
+  },
+  "v2: A+ x2.5, A x2, A- x1.5, B+ x1, B- x0": {
+   "usd_wk": 8818,
+   "h1": 9499,
+   "h2": 8137,
+   "maxDD": 10.01,
+   "trades_day": 23.1,
+   "R_live": 0.8,
+   "losing_wks": 0,
+   "worst_wk": 70
+  },
+  "v2: A+ x3, A x2, A- x1, B+ x1, B- x0": {
+   "usd_wk": 9093,
+   "h1": 9740,
+   "h2": 8445,
+   "maxDD": 10.21,
+   "trades_day": 23.1,
+   "R_live": 0.8,
+   "losing_wks": 0,
+   "worst_wk": 70
+  },
+  "v2: A+ x2, A x2, A- x1, B+ x0, B- x0": {
+   "usd_wk": 7226,
+   "h1": 7839,
+   "h2": 6613,
+   "maxDD": 8.0,
+   "trades_day": 18.2,
+   "R_live": 0.876,
+   "losing_wks": 0,
+   "worst_wk": 70
+  },
+  "v2: A+ x3, A x2, A- x1, B+ x0.5, B- x0": {
+   "usd_wk": 8834,
+   "h1": 9472,
+   "h2": 8195,
+   "maxDD": 9.61,
+   "trades_day": 23.1,
+   "R_live": 0.8,
+   "losing_wks": 0,
+   "worst_wk": 70
+  },
+  "v2: A+ x2 only": {
+   "usd_wk": 2645,
+   "h1": 2598,
+   "h2": 2693,
+   "maxDD": 4.1,
+   "trades_day": 3.7,
+   "R_live": 1.331,
+   "losing_wks": 0,
+   "worst_wk": 0
+  },
+  "v2: A+ x2, A x2 only": {
+   "usd_wk": 6491,
+   "h1": 7061,
+   "h2": 5921,
+   "maxDD": 7.33,
+   "trades_day": 13.2,
+   "R_live": 0.978,
+   "losing_wks": 0,
+   "worst_wk": 70
+  }
+ }
+}
