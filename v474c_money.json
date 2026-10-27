@@ -1,0 +1,156 @@
+{
+ "gate": "skip B+ when FISHER_H4 (oriented to the trade) >= 0.67",
+ "book_v2": {
+  "usd_wk": 8277,
+  "h1": 8836,
+  "h2": 7718,
+  "maxDD": 9.29,
+  "trades_day": 20.6,
+  "R": 0.823,
+  "win": 62,
+  "losing_wks": 0,
+  "worst_wk": 70,
+  "days_over5": 0
+ },
+ "book_v2_shined": {
+  "usd_wk": 8247,
+  "h1": 8778,
+  "h2": 7716,
+  "maxDD": 9.71,
+  "trades_day": 19.2,
+  "R": 0.864,
+  "win": 64,
+  "losing_wks": 0,
+  "worst_wk": 70,
+  "days_over5": 1
+ },
+ "Bplus_on_before": {
+  "usd_wk": 265,
+  "h1": 266,
+  "h2": 264,
+  "maxDD": 3.9,
+  "trades_day": 4.7,
+  "R": 0.507,
+  "win": 52,
+  "losing_wks": 7,
+  "worst_wk": -344,
+  "days_over5": 0
+ },
+ "Bplus_on_after": {
+  "usd_wk": 235,
+  "h1": 208,
+  "h2": 262,
+  "maxDD": 2.49,
+  "trades_day": 3.3,
+  "R": 0.609,
+  "win": 55,
+  "losing_wks": 8,
+  "worst_wk": -249,
+  "days_over5": 0
+ },
+ "skipped": {
+  "n": 205,
+  "R": 0.268,
+  "h1": 0.36,
+  "h2": 0.151,
+  "usd_wk": 30
+ },
+ "symbols": {
+  "AUDUSD": {
+   "n": 29,
+   "skipped": 9,
+   "R_kept": 0.11,
+   "R_skipped": 1.14,
+   "usd_wk_before": 2,
+   "usd_wk_after": -6
+  },
+  "CADJPY": {
+   "n": 44,
+   "skipped": 10,
+   "R_kept": 0.78,
+   "R_skipped": 0.67,
+   "usd_wk_before": 42,
+   "usd_wk_after": 33
+  },
+  "EURJPY": {
+   "n": 45,
+   "skipped": 12,
+   "R_kept": 0.76,
+   "R_skipped": 0.24,
+   "usd_wk_before": 27,
+   "usd_wk_after": 24
+  },
+  "EURUSD": {
+   "n": 85,
+   "skipped": 20,
+   "R_kept": 0.47,
+   "R_skipped": 0.01,
+   "usd_wk_before": 36,
+   "usd_wk_after": 37
+  },
+  "GBPJPY": {
+   "n": 38,
+   "skipped": 8,
+   "R_kept": 0.44,
+   "R_skipped": -0.13,
+   "usd_wk_before": 1,
+   "usd_wk_after": 6
+  },
+  "GBPUSD": {
+   "n": 63,
+   "skipped": 17,
+   "R_kept": 0.69,
+   "R_skipped": 0.15,
+   "usd_wk_before": 21,
+   "usd_wk_after": 20
+  },
+  "NZDJPY": {
+   "n": 45,
+   "skipped": 14,
+   "R_kept": 0.65,
+   "R_skipped": -0.32,
+   "usd_wk_before": 12,
+   "usd_wk_after": 18
+  },
+  "NZDUSD": {
+   "n": 57,
+   "skipped": 19,
+   "R_kept": 0.44,
+   "R_skipped": 0.24,
+   "usd_wk_before": 4,
+   "usd_wk_after": 4
+  },
+  "UK100": {
+   "n": 120,
+   "skipped": 37,
+   "R_kept": 0.59,
+   "R_skipped": 0.51,
+   "usd_wk_before": 55,
+   "usd_wk_after": 37
+  },
+  "USDCHF": {
+   "n": 51,
+   "skipped": 9,
+   "R_kept": 0.63,
+   "R_skipped": 0.16,
+   "usd_wk_before": 18,
+   "usd_wk_after": 18
+  },
+  "USOil": {
+   "n": 58,
+   "skipped": 30,
+   "R_kept": 0.67,
+   "R_skipped": 0.16,
+   "usd_wk_before": 12,
+   "usd_wk_after": 14
+  },
+  "XAUUSD": {
+   "n": 49,
+   "skipped": 20,
+   "R_kept": 1.09,
+   "R_skipped": 0.41,
+   "usd_wk_before": 35,
+   "usd_wk_after": 28
+  }
+ }
+}
