@@ -1,0 +1,1068 @@
+{
+ "book": {
+  "grade as set / ASIS": {
+   "usd_wk": 9585,
+   "h1": 10520,
+   "h2": 8651,
+   "maxDD": 6.45
+  },
+  "grade as set / NOOPP": {
+   "usd_wk": 8266,
+   "h1": 9010,
+   "h2": 7523,
+   "maxDD": 8.72
+  },
+  "grade as set / REVERSE": {
+   "usd_wk": 9556,
+   "h1": 10445,
+   "h2": 8667,
+   "maxDD": 7.23
+  },
+  "grade as set / CLOSE": {
+   "usd_wk": 8957,
+   "h1": 9774,
+   "h2": 8141,
+   "maxDD": 7.42
+  },
+  "H1 on 20-day ATR / ASIS": {
+   "usd_wk": 8345,
+   "h1": 8986,
+   "h2": 7703,
+   "maxDD": 7.79
+  },
+  "H1 on 20-day ATR / NOOPP": {
+   "usd_wk": 7181,
+   "h1": 7640,
+   "h2": 6721,
+   "maxDD": 10.29
+  },
+  "H1 on 20-day ATR / REVERSE": {
+   "usd_wk": 8330,
+   "h1": 8984,
+   "h2": 7676,
+   "maxDD": 8.24
+  },
+  "H1 on 20-day ATR / CLOSE": {
+   "usd_wk": 7784,
+   "h1": 8376,
+   "h2": 7192,
+   "maxDD": 9.02
+  }
+ },
+ "per_symbol": {
+  "AUDJPY": {
+   "grade as set / ASIS": {
+    "usd_wk": 417,
+    "h1": 412,
+    "h2": 422
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 373,
+    "h1": 372,
+    "h2": 374
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 410,
+    "h1": 425,
+    "h2": 394
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 389,
+    "h1": 385,
+    "h2": 393
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 391,
+    "h1": 354,
+    "h2": 429
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 373,
+    "h1": 335,
+    "h2": 411
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 388,
+    "h1": 366,
+    "h2": 411
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 393,
+    "h1": 346,
+    "h2": 441
+   }
+  },
+  "AUDUSD": {
+   "grade as set / ASIS": {
+    "usd_wk": 378,
+    "h1": 406,
+    "h2": 351
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 316,
+    "h1": 320,
+    "h2": 312
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 383,
+    "h1": 415,
+    "h2": 351
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 348,
+    "h1": 371,
+    "h2": 325
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 275,
+    "h1": 291,
+    "h2": 258
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 209,
+    "h1": 205,
+    "h2": 212
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 281,
+    "h1": 300,
+    "h2": 261
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 242,
+    "h1": 256,
+    "h2": 228
+   }
+  },
+  "CADJPY": {
+   "grade as set / ASIS": {
+    "usd_wk": 739,
+    "h1": 674,
+    "h2": 804
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 549,
+    "h1": 430,
+    "h2": 668
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 723,
+    "h1": 658,
+    "h2": 788
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 642,
+    "h1": 558,
+    "h2": 726
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 639,
+    "h1": 570,
+    "h2": 707
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 477,
+    "h1": 354,
+    "h2": 599
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 631,
+    "h1": 572,
+    "h2": 690
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 553,
+    "h1": 474,
+    "h2": 633
+   }
+  },
+  "EURAUD": {
+   "grade as set / ASIS": {
+    "usd_wk": 396,
+    "h1": 494,
+    "h2": 299
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 366,
+    "h1": 460,
+    "h2": 273
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 457,
+    "h1": 553,
+    "h2": 360
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 419,
+    "h1": 517,
+    "h2": 321
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 303,
+    "h1": 353,
+    "h2": 254
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 280,
+    "h1": 341,
+    "h2": 219
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 349,
+    "h1": 397,
+    "h2": 301
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 320,
+    "h1": 373,
+    "h2": 266
+   }
+  },
+  "EURJPY": {
+   "grade as set / ASIS": {
+    "usd_wk": 514,
+    "h1": 629,
+    "h2": 398
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 479,
+    "h1": 630,
+    "h2": 328
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 545,
+    "h1": 621,
+    "h2": 469
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 531,
+    "h1": 639,
+    "h2": 423
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 501,
+    "h1": 616,
+    "h2": 387
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 462,
+    "h1": 634,
+    "h2": 290
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 513,
+    "h1": 592,
+    "h2": 435
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 493,
+    "h1": 620,
+    "h2": 366
+   }
+  },
+  "EURUSD": {
+   "grade as set / ASIS": {
+    "usd_wk": 1081,
+    "h1": 1256,
+    "h2": 906
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 822,
+    "h1": 854,
+    "h2": 789
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 1078,
+    "h1": 1295,
+    "h2": 860
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 1046,
+    "h1": 1214,
+    "h2": 879
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 969,
+    "h1": 1049,
+    "h2": 889
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 722,
+    "h1": 629,
+    "h2": 815
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 955,
+    "h1": 1075,
+    "h2": 835
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 925,
+    "h1": 982,
+    "h2": 868
+   }
+  },
+  "GBPAUD": {
+   "grade as set / ASIS": {
+    "usd_wk": 239,
+    "h1": 255,
+    "h2": 223
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 244,
+    "h1": 265,
+    "h2": 223
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 242,
+    "h1": 262,
+    "h2": 223
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 247,
+    "h1": 272,
+    "h2": 223
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 204,
+    "h1": 207,
+    "h2": 201
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 209,
+    "h1": 217,
+    "h2": 201
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 208,
+    "h1": 214,
+    "h2": 201
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 212,
+    "h1": 224,
+    "h2": 201
+   }
+  },
+  "GBPJPY": {
+   "grade as set / ASIS": {
+    "usd_wk": 395,
+    "h1": 447,
+    "h2": 343
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 349,
+    "h1": 422,
+    "h2": 276
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 433,
+    "h1": 448,
+    "h2": 419
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 396,
+    "h1": 423,
+    "h2": 370
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 346,
+    "h1": 412,
+    "h2": 280
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 309,
+    "h1": 387,
+    "h2": 230
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 354,
+    "h1": 413,
+    "h2": 294
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 318,
+    "h1": 388,
+    "h2": 249
+   }
+  },
+  "GBPUSD": {
+   "grade as set / ASIS": {
+    "usd_wk": 506,
+    "h1": 519,
+    "h2": 493
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 342,
+    "h1": 428,
+    "h2": 256
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 494,
+    "h1": 491,
+    "h2": 496
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 424,
+    "h1": 416,
+    "h2": 432
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 423,
+    "h1": 416,
+    "h2": 429
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 286,
+    "h1": 333,
+    "h2": 240
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 409,
+    "h1": 395,
+    "h2": 424
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 337,
+    "h1": 317,
+    "h2": 356
+   }
+  },
+  "GER30": {
+   "grade as set / ASIS": {
+    "usd_wk": 115,
+    "h1": 114,
+    "h2": 116
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 102,
+    "h1": 91,
+    "h2": 113
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 118,
+    "h1": 120,
+    "h2": 116
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 111,
+    "h1": 109,
+    "h2": 112
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 115,
+    "h1": 114,
+    "h2": 116
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 102,
+    "h1": 91,
+    "h2": 113
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 118,
+    "h1": 120,
+    "h2": 116
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 111,
+    "h1": 109,
+    "h2": 112
+   }
+  },
+  "NAS100": {
+   "grade as set / ASIS": {
+    "usd_wk": 31,
+    "h1": 34,
+    "h2": 28
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 31,
+    "h1": 34,
+    "h2": 28
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 31,
+    "h1": 34,
+    "h2": 28
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 31,
+    "h1": 34,
+    "h2": 28
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 31,
+    "h1": 34,
+    "h2": 28
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 31,
+    "h1": 34,
+    "h2": 28
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 31,
+    "h1": 34,
+    "h2": 28
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 31,
+    "h1": 34,
+    "h2": 28
+   }
+  },
+  "NZDJPY": {
+   "grade as set / ASIS": {
+    "usd_wk": 568,
+    "h1": 665,
+    "h2": 470
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 491,
+    "h1": 575,
+    "h2": 407
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 535,
+    "h1": 682,
+    "h2": 388
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 473,
+    "h1": 606,
+    "h2": 341
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 515,
+    "h1": 637,
+    "h2": 394
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 439,
+    "h1": 539,
+    "h2": 339
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 495,
+    "h1": 666,
+    "h2": 325
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 434,
+    "h1": 582,
+    "h2": 287
+   }
+  },
+  "NZDUSD": {
+   "grade as set / ASIS": {
+    "usd_wk": 366,
+    "h1": 311,
+    "h2": 421
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 336,
+    "h1": 300,
+    "h2": 373
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 377,
+    "h1": 323,
+    "h2": 431
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 347,
+    "h1": 311,
+    "h2": 383
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 201,
+    "h1": 182,
+    "h2": 220
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 195,
+    "h1": 170,
+    "h2": 220
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 208,
+    "h1": 195,
+    "h2": 220
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 202,
+    "h1": 184,
+    "h2": 220
+   }
+  },
+  "SPX500": {
+   "grade as set / ASIS": {
+    "usd_wk": 440,
+    "h1": 467,
+    "h2": 412
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 459,
+    "h1": 496,
+    "h2": 423
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 439,
+    "h1": 473,
+    "h2": 404
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 453,
+    "h1": 490,
+    "h2": 415
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 411,
+    "h1": 418,
+    "h2": 404
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 434,
+    "h1": 452,
+    "h2": 416
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 411,
+    "h1": 427,
+    "h2": 396
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 428,
+    "h1": 450,
+    "h2": 407
+   }
+  },
+  "UK100": {
+   "grade as set / ASIS": {
+    "usd_wk": 719,
+    "h1": 1022,
+    "h2": 415
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 593,
+    "h1": 871,
+    "h2": 316
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 781,
+    "h1": 1010,
+    "h2": 552
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 712,
+    "h1": 967,
+    "h2": 457
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 525,
+    "h1": 701,
+    "h2": 349
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 414,
+    "h1": 590,
+    "h2": 239
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 604,
+    "h1": 730,
+    "h2": 479
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 529,
+    "h1": 686,
+    "h2": 372
+   }
+  },
+  "US30": {
+   "grade as set / ASIS": {
+    "usd_wk": 125,
+    "h1": 120,
+    "h2": 131
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 125,
+    "h1": 120,
+    "h2": 131
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 125,
+    "h1": 120,
+    "h2": 131
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 125,
+    "h1": 120,
+    "h2": 131
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 125,
+    "h1": 120,
+    "h2": 131
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 125,
+    "h1": 120,
+    "h2": 131
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 125,
+    "h1": 120,
+    "h2": 131
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 125,
+    "h1": 120,
+    "h2": 131
+   }
+  },
+  "USDCAD": {
+   "grade as set / ASIS": {
+    "usd_wk": 678,
+    "h1": 645,
+    "h2": 710
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 589,
+    "h1": 619,
+    "h2": 559
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 589,
+    "h1": 509,
+    "h2": 668
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 563,
+    "h1": 488,
+    "h2": 639
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 619,
+    "h1": 593,
+    "h2": 646
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 521,
+    "h1": 574,
+    "h2": 467
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 551,
+    "h1": 484,
+    "h2": 618
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 512,
+    "h1": 471,
+    "h2": 552
+   }
+  },
+  "USDCHF": {
+   "grade as set / ASIS": {
+    "usd_wk": 485,
+    "h1": 485,
+    "h2": 484
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 454,
+    "h1": 446,
+    "h2": 461
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 445,
+    "h1": 445,
+    "h2": 445
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 431,
+    "h1": 429,
+    "h2": 433
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 471,
+    "h1": 470,
+    "h2": 472
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 445,
+    "h1": 446,
+    "h2": 445
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 442,
+    "h1": 428,
+    "h2": 456
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 435,
+    "h1": 428,
+    "h2": 442
+   }
+  },
+  "USDJPY": {
+   "grade as set / ASIS": {
+    "usd_wk": 306,
+    "h1": 334,
+    "h2": 279
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 298,
+    "h1": 323,
+    "h2": 273
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 308,
+    "h1": 333,
+    "h2": 282
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 299,
+    "h1": 322,
+    "h2": 276
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 266,
+    "h1": 261,
+    "h2": 272
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 258,
+    "h1": 250,
+    "h2": 266
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 266,
+    "h1": 260,
+    "h2": 272
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 258,
+    "h1": 249,
+    "h2": 266
+   }
+  },
+  "USOil": {
+   "grade as set / ASIS": {
+    "usd_wk": 306,
+    "h1": 318,
+    "h2": 295
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 306,
+    "h1": 318,
+    "h2": 295
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 306,
+    "h1": 318,
+    "h2": 293
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 306,
+    "h1": 318,
+    "h2": 293
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 293,
+    "h1": 330,
+    "h2": 256
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 293,
+    "h1": 330,
+    "h2": 256
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 292,
+    "h1": 330,
+    "h2": 254
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 292,
+    "h1": 330,
+    "h2": 254
+   }
+  },
+  "XAUUSD": {
+   "grade as set / ASIS": {
+    "usd_wk": 781,
+    "h1": 913,
+    "h2": 650
+   },
+   "grade as set / NOOPP": {
+    "usd_wk": 640,
+    "h1": 637,
+    "h2": 644
+   },
+   "grade as set / REVERSE": {
+    "usd_wk": 740,
+    "h1": 910,
+    "h2": 570
+   },
+   "grade as set / CLOSE": {
+    "usd_wk": 663,
+    "h1": 785,
+    "h2": 541
+   },
+   "H1 on 20-day ATR / ASIS": {
+    "usd_wk": 722,
+    "h1": 860,
+    "h2": 584
+   },
+   "H1 on 20-day ATR / NOOPP": {
+    "usd_wk": 597,
+    "h1": 609,
+    "h2": 585
+   },
+   "H1 on 20-day ATR / REVERSE": {
+    "usd_wk": 699,
+    "h1": 867,
+    "h2": 531
+   },
+   "H1 on 20-day ATR / CLOSE": {
+    "usd_wk": 632,
+    "h1": 753,
+    "h2": 511
+   }
+  }
+ },
+ "dna": {
+  "AUDJPY": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 417,
+   "base_usd_wk": 417,
+   "gain": 0
+  },
+  "AUDUSD": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 378,
+   "base_usd_wk": 378,
+   "gain": 0
+  },
+  "CADJPY": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 739,
+   "base_usd_wk": 739,
+   "gain": 0
+  },
+  "EURAUD": {
+   "choice": "grade as set / REVERSE",
+   "usd_wk": 457,
+   "base_usd_wk": 396,
+   "gain": 61
+  },
+  "EURJPY": {
+   "choice": "grade as set / CLOSE",
+   "usd_wk": 531,
+   "base_usd_wk": 514,
+   "gain": 17
+  },
+  "EURUSD": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 1081,
+   "base_usd_wk": 1081,
+   "gain": 0
+  },
+  "GBPAUD": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 239,
+   "base_usd_wk": 239,
+   "gain": 0
+  },
+  "GBPJPY": {
+   "choice": "grade as set / REVERSE",
+   "usd_wk": 433,
+   "base_usd_wk": 395,
+   "gain": 38
+  },
+  "GBPUSD": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 506,
+   "base_usd_wk": 506,
+   "gain": 0
+  },
+  "GER30": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 115,
+   "base_usd_wk": 115,
+   "gain": 0
+  },
+  "NAS100": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 31,
+   "base_usd_wk": 31,
+   "gain": 0
+  },
+  "NZDJPY": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 568,
+   "base_usd_wk": 568,
+   "gain": 0
+  },
+  "NZDUSD": {
+   "choice": "grade as set / REVERSE",
+   "usd_wk": 377,
+   "base_usd_wk": 366,
+   "gain": 11
+  },
+  "SPX500": {
+   "choice": "grade as set / NOOPP",
+   "usd_wk": 459,
+   "base_usd_wk": 440,
+   "gain": 19
+  },
+  "UK100": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 719,
+   "base_usd_wk": 719,
+   "gain": 0
+  },
+  "US30": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 125,
+   "base_usd_wk": 125,
+   "gain": 0
+  },
+  "USDCAD": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 678,
+   "base_usd_wk": 678,
+   "gain": 0
+  },
+  "USDCHF": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 485,
+   "base_usd_wk": 485,
+   "gain": 0
+  },
+  "USDJPY": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 306,
+   "base_usd_wk": 306,
+   "gain": 0
+  },
+  "USOil": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 306,
+   "base_usd_wk": 306,
+   "gain": 0
+  },
+  "XAUUSD": {
+   "choice": "grade as set / ASIS",
+   "usd_wk": 781,
+   "base_usd_wk": 781,
+   "gain": 0
+  }
+ },
+ "dna_total_usd_wk": 9731,
+ "overlaps_as_set": 723,
+ "grade_changes_g1": 820,
+ "n": 5844
+}
