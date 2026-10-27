@@ -10,15 +10,25 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "B +0.22 (+0.52 / +0.10): nothing in the 2nd half"
+   "note": "v2: A+ n47 +0.95 \u00b7 A n55 +1.05 \u00b7 A- n30 +0.35 (on) \u00b7 B+ n19 +0.22 (OFF)",
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.0,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "NZDJPY": {
    "N": 5,
    "risk": 0.3,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "v2: A+ n20 +1.21 \u00b7 A n82 +1.01 \u00b7 A- n41 +0.91 (on) \u00b7 B+ n45 +0.35 (on)",
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "AUDJPY": {
    "N": 5,
@@ -26,71 +36,116 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "B +0.10 (-0.01 / +0.29): nothing"
+   "note": "v2: A+ n20 +1.70 \u00b7 A n38 +0.98 \u00b7 A- n10 +0.37 (OFF) \u00b7 B+ n22 +0.22 (OFF)",
+   "A+": 3.0,
+   "A-": 0.0,
+   "B+": 0.0,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "CADJPY": {
    "N": 5,
    "risk": 0.4,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "v2: A+ n24 +1.36 \u00b7 A n62 +0.87 \u00b7 A- n48 +0.84 (on) \u00b7 B+ n44 +0.75 (on)",
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "EURUSD": {
    "N": 4,
    "risk": 0.4,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "v2: A+ n48 +1.46 \u00b7 A n99 +0.81 \u00b7 A- n60 +0.63 (on) \u00b7 B+ n85 +0.36 (on)",
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "EURJPY": {
    "N": 6,
    "risk": 0.3,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "v2: A+ n28 +1.32 \u00b7 A n98 +0.54 \u00b7 A- n37 +0.57 (on) \u00b7 B+ n41 +0.63 (on)",
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "GBPUSD": {
    "N": 4,
    "risk": 0.2,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "v2: A+ n47 +0.85 \u00b7 A n94 +0.81 \u00b7 A- n61 +0.78 (on) \u00b7 B+ n63 +0.54 (on)",
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "SPX500": {
    "N": 5,
    "risk": 0.4,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "A2 B1 C0 at full size (0.01 lot = $0.10/pt, always placeable)"
+   "note": "v2: A+ n14 +1.83 \u00b7 A n29 +1.07 \u00b7 A- n16 +1.60 (OFF) \u00b7 B+ n14 +0.62 (OFF)",
+   "A+": 3.0,
+   "A-": 0.0,
+   "B+": 0.0,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "XAUUSD": {
    "N": 6,
    "risk": 0.3,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "v2: A+ n33 +1.52 \u00b7 A n77 +1.14 \u00b7 A- n35 +0.88 (on) \u00b7 B+ n49 +0.81 (on)",
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "USDCHF": {
    "N": 4,
    "risk": 0.3,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "v2: A+ n26 +2.06 \u00b7 A n45 +0.85 \u00b7 A- n34 +0.43 (OFF) \u00b7 B+ n51 +0.55 (on)",
+   "A+": 3.0,
+   "A-": 0.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "USDCAD": {
    "N": 5,
    "risk": 0.4,
    "A": 2.0,
-   "B": 1.0,
+   "B": 0.0,
    "C": 0.0,
-   "note": "B on: profitable both halves"
+   "note": "v2: A+ n21 +1.65 \u00b7 A n56 +1.12 \u00b7 A- n22 +0.75 (OFF) \u00b7 B+ n24 +1.11 (OFF)",
+   "A+": 3.0,
+   "A-": 0.0,
+   "B+": 0.0,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "USOil": {
    "N": 5,
@@ -98,7 +153,12 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "B +0.62 (+0.35 / +0.86) but only 86 positions and the 1st half is thin: A only until it proves B"
+   "note": "v2: A+ n27 +1.18 \u00b7 A n50 +0.46 \u00b7 A- n27 +1.17 (on) \u00b7 B+ n58 +0.41 (on)",
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "GBPJPY": {
    "N": 4,
@@ -106,9 +166,14 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.68 (.66/.71)",
+   "note": "v2: A+ n37 +1.04 \u00b7 A n88 +0.46 \u00b7 A- n48 +0.39 (on) \u00b7 B+ n36 +0.34 (on)",
    "index_cap": null,
-   "need_h4_and_d1": false
+   "need_h4_and_d1": false,
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "AUDUSD": {
    "N": 5,
@@ -116,9 +181,14 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +1.18 (1.23/1.12)",
+   "note": "v2: A+ n10 +2.20 \u00b7 A n44 +1.04 \u00b7 A- n28 +0.30 (on) \u00b7 B+ n29 +0.43 (on)",
    "index_cap": null,
-   "need_h4_and_d1": false
+   "need_h4_and_d1": false,
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "EURAUD": {
    "N": 4,
@@ -126,9 +196,14 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.86 (1.03/.67)",
+   "note": "v2: A+ n26 +1.15 \u00b7 A n74 +0.83 \u00b7 A- n34 +0.24 (OFF) \u00b7 B+ n52 +0.09 (OFF)",
    "index_cap": null,
-   "need_h4_and_d1": false
+   "need_h4_and_d1": false,
+   "A+": 3.0,
+   "A-": 0.0,
+   "B+": 0.0,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "GBPAUD": {
    "N": 4,
@@ -136,9 +211,14 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.93 (.90/.96) - keep A only; Paul: can go if it disappoints",
+   "note": "v2: A+ n17 +1.76 \u00b7 A n43 +0.56 \u00b7 A- n14 +1.61 (OFF) \u00b7 B+ n36 +0.03 (OFF)",
    "index_cap": null,
-   "need_h4_and_d1": false
+   "need_h4_and_d1": false,
+   "A+": 3.0,
+   "A-": 0.0,
+   "B+": 0.0,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "NZDUSD": {
    "N": 4,
@@ -146,9 +226,14 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.95 (.98/.93)",
+   "note": "v2: A+ n17 +1.33 \u00b7 A n69 +0.87 \u00b7 A- n31 +0.46 (on) \u00b7 B+ n57 +0.37 (on)",
    "index_cap": null,
-   "need_h4_and_d1": false
+   "need_h4_and_d1": false,
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "UK100": {
    "N": 3,
@@ -156,9 +241,14 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A only x2 (placeable at 0.01 lot)",
+   "note": "v2: A+ n38 +0.76 \u00b7 A n104 +0.90 \u00b7 A- n65 +0.61 (on) \u00b7 B+ n118 +0.56 (on)",
    "index_cap": null,
-   "need_h4_and_d1": false
+   "need_h4_and_d1": false,
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "NAS100": {
    "N": 4,
@@ -166,9 +256,14 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +1.22 (1.14/1.28) - WAY 3: A only with H4 AND D1, 0.01 lot, cap 0.6% (stage 1); stage 2 at $25k: A only x2 sized (NAS100, GER30); stage 3 at $45k: US30",
+   "note": "v2: A+ n6 +1.95 \u00b7 A n32 +1.13 \u00b7 A- n22 +0.57 (OFF) \u00b7 B+ n20 +0.38 (OFF); index: A+/A only (D1&H4), 0.01 lot cap 0.6%",
    "index_cap": 0.006,
-   "need_h4_and_d1": true
+   "need_h4_and_d1": true,
+   "A+": 3.0,
+   "A-": 0.0,
+   "B+": 0.0,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "GER30": {
    "N": 4,
@@ -176,9 +271,14 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.98 (1.02/.93) - WAY 3: A only with H4 AND D1, 0.01 lot, cap 0.6% (stage 1); stage 2 at $25k: A only x2 sized (NAS100, GER30); stage 3 at $45k: US30",
+   "note": "v2: A+ n29 +1.89 \u00b7 A n76 +0.62 \u00b7 A- n25 +0.80 (on) \u00b7 B+ n25 -0.20 (OFF); index: A+/A only (D1&H4), 0.01 lot cap 0.6%",
    "index_cap": 0.006,
-   "need_h4_and_d1": true
+   "need_h4_and_d1": true,
+   "A+": 3.0,
+   "A-": 1.0,
+   "B+": 0.0,
+   "B-": 0.0,
+   "grade": "v2"
   },
   "US30": {
    "N": 3,
@@ -186,13 +286,18 @@
    "A": 2.0,
    "B": 0.0,
    "C": 0.0,
-   "note": "A +0.73 (.68/.79): A only with H4 AND D1 - WAY 3: A only with H4 AND D1, 0.01 lot, cap 0.6% (stage 1); stage 2 at $25k: A only x2 sized (NAS100, GER30); stage 3 at $45k: US30",
+   "note": "v2: A+ n16 +1.44 \u00b7 A n104 +0.81 \u00b7 A- n62 -0.07 (OFF) \u00b7 B+ n78 +0.57 (on); index: A+/A only (D1&H4), 0.01 lot cap 0.6%",
    "index_cap": 0.006,
-   "need_h4_and_d1": true
+   "need_h4_and_d1": true,
+   "A+": 3.0,
+   "A-": 0.0,
+   "B+": 0.5,
+   "B-": 0.0,
+   "grade": "v2"
   }
  },
- "set_by": "Paul, Sat 24 Oct 2026",
- "model": "A x2, B x1 where profitable, C never",
+ "set_by": "Paul, Tue 27 Oct 2026 17:40 - pivot mid-week",
+ "model": "GRADE v2 (27 Oct): A+ x3, A x2, A- x1 where it earns, B+ x0.5 where it earns, B- and C never",
  "stages": {
   "1 (now, $20k)": "NAS100/GER30/US30 way 3 at 0.01 lot cap 0.6%; SPX A2 B1; UK100 A only",
   "2 ($25k)": "NAS100, GER30 -> A only x2, sized",
