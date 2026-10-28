@@ -347,6 +347,11 @@
   "UK100"
  ],
  "sizing": {
+  "rule": "flat",
+  "set": "Wed 28 Oct 2026 16:05 - book of seven, flat x1 (reverse_rolling kept under sizing_previous; one key to restore)"
+ },
+ "shine_gate": false,
+ "sizing_previous": {
   "rule": "reverse_rolling",
   "weights_file": "state/setup_weights.json",
   "lookback_weeks": 8,
