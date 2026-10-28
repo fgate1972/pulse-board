@@ -1,0 +1,62 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PULSE - rolling re-selection (27 Oct 2026)</title><style>:root{--bg:#0b0f17;--card:#121826;--txt:#e6edf3;--mut:#8b98a8;color-scheme:dark}body{background:var(--bg);color:var(--txt);font:14px/1.45 system-ui,Segoe UI,Roboto,sans-serif;margin:0;padding:22px 26px;max-width:1300px}h1{font-size:22px;margin:0 0 4px}.sub{color:var(--mut);font-size:12px}.v{background:var(--card);border-left:4px solid #4cc9a0;border-radius:10px;padding:14px 16px;margin:16px 0;font-size:16px}pre{background:var(--card);padding:14px;border-radius:10px;overflow-x:auto;font:12px/1.4 Consolas,monospace}table{border-collapse:collapse;margin:10px 0}th,td{padding:6px 12px;border-bottom:1px solid #1f2937;text-align:right}th{color:var(--mut);font-size:11px;text-transform:uppercase}td:first-child,th:first-child{text-align:left}</style></head><body><h1>Rolling re-selection, modelled forward</h1><div class="sub">Tuesday 27 October 2026, 20:35 Dallas - 42,082 setup trades in the book's positions, 29 weeks cut into 4-week blocks; every rule decides a block from the trailing window only, then the block is scored; the static book is scored on the same blocks</div><div class="v"><b>Chasing performance loses; sizing up what just went cold wins.</b> Every rule that keeps recent winners or drops recent losers (keep if trailing R &gt; 0, keep the top half, drop the bottom quarter, size winners up) earns LESS than the static book - on all three lookbacks (8, 12, 16 weeks) and all three levels (setup, symbol x frame, symbol). The reverse at the setup level - size each setup 1.5x when its trailing 8-week R is in the bottom third, 0.5x when it is in the top third, 1x otherwise - earns MORE than the static book on every lookback: +8% / +10% / +7% R per week, every forward block positive, the worst block better on all three, drawdown +2 R. Setup performance mean-reverts: the setups that just lost are the ones about to earn. That is the same mechanism as the "decay" - the pools were picked where they had just won.</div><table><tr><th>Forward blocks</th><th>Static x1 R/wk</th><th>REVERSE 0.5/1/1.5 R/wk</th><th>gain</th><th>Static DD</th><th>Reverse DD</th><th>Static worst block</th><th>Reverse worst block</th><th>Chase (size winners up) R/wk</th></tr><tr><td>8-week lookback, 6 blocks (24 wks)</td><td>104.5</td><td>113.3</td><td>+8.4%</td><td>22.1</td><td>24.4</td><td>+21.9</td><td>+43.0</td><td>95.7</td></tr><tr><td>12-week lookback, 5 blocks (20 wks)</td><td>93.3</td><td>102.3</td><td>+9.6%</td><td>22.1</td><td>24.4</td><td>+21.9</td><td>+41.8</td><td>84.3</td></tr><tr><td>16-week lookback, 4 blocks (16 wks)</td><td>81.9</td><td>87.9</td><td>+7.3%</td><td>22.1</td><td>22.2</td><td>+21.9</td><td>+30.6</td><td>75.9</td></tr></table><div class="sub">R per week in book R (flat units); a position's weight = the mean of its setups' weights. "Mirror: keep only what just lost" earns +0.65 R per position vs +0.55 on all three lookbacks, confirming the direction; it trades too little on its own.</div><pre>setup trades 42082 weeks 29 blocks of 4 weeks 8
+STATIC: everything x1 (from block 2)                 pos  4548 R/pos +0.552 R/wk  104.5 DD   22.1 +blocks 6/6 worst 21.9
+setup: keep if trailing 8w R &gt; 0                     pos  4537 R/pos +0.551 R/wk   96.6 DD   22.0 +blocks 6/6 worst 5.0
+setup: keep top half by trailing 8w                  pos  3714 R/pos +0.535 R/wk   42.4 DD   16.8 +blocks 5/6 worst -8.6
+setup: drop bottom quarter by trailing 8w            pos  4421 R/pos +0.549 R/wk   73.9 DD   21.4 +blocks 6/6 worst 0.7
+setup: size 1.5/1/0.5 by trailing 8w terciles        pos  4548 R/pos +0.552 R/wk   95.7 DD   24.0 +blocks 6/6 worst 0.9
+setup: MIRROR keep only trailing 8w R &lt;= 0           pos  3427 R/pos +0.652 R/wk   50.2 DD   15.3 +blocks 6/6 worst 23.8
+setup: REVERSE size 0.5/1/1.5 (size up what just lost) 8w pos  4548 R/pos +0.550 R/wk  113.3 DD   24.4 +blocks 6/6 worst 43.0
+symbol x frame: keep if trailing 8w R &gt; 0            pos  4389 R/pos +0.542 R/wk   99.1 DD   25.2 +blocks 6/6 worst 11.7
+symbol x frame: keep top half by trailing 8w         pos  2391 R/pos +0.488 R/wk   46.5 DD   23.8 +blocks 5/6 worst -11.1
+symbol x frame: drop bottom quarter by trailing 8w   pos  3888 R/pos +0.511 R/wk   82.0 DD   34.9 +blocks 6/6 worst 2.6
+symbol x frame: size 1.5/1/0.5 by trailing 8w terciles pos  4548 R/pos +0.552 R/wk  101.5 DD   25.9 +blocks 5/6 worst -2.6
+symbol x frame: MIRROR keep only trailing 8w R &lt;= 0  pos   340 R/pos +0.681 R/wk    6.8 DD    6.0 +blocks 6/6 worst 10.1
+symbol x frame: REVERSE size 0.5/1/1.5 (size up what just lost) 8w pos  4548 R/pos +0.551 R/wk  107.5 DD   23.3 +blocks 6/6 worst 46.5
+symbol: keep if trailing 8w R &gt; 0                    pos  4548 R/pos +0.552 R/wk  104.5 DD   22.1 +blocks 6/6 worst 21.9
+symbol: keep top half by trailing 8w                 pos  2282 R/pos +0.515 R/wk   49.0 DD   24.7 +blocks 5/6 worst -17.1
+symbol: drop bottom quarter by trailing 8w           pos  3184 R/pos +0.540 R/wk   71.7 DD   22.4 +blocks 5/6 worst -8.1
+symbol: size 1.5/1/0.5 by trailing 8w terciles       pos  4548 R/pos +0.552 R/wk   99.9 DD   29.7 +blocks 5/6 worst -8.6
+symbol: MIRROR keep only trailing 8w R &lt;= 0          (nothing selected)
+symbol: REVERSE size 0.5/1/1.5 (size up what just lost) 8w pos  4548 R/pos +0.552 R/wk  109.2 DD   27.3 +blocks 6/6 worst 52.5
+
+STATIC: everything x1 (from block 3)                 pos  3713 R/pos +0.502 R/wk   93.3 DD   22.1 +blocks 5/5 worst 21.9
+setup: keep if trailing 12w R &gt; 0                    pos  3708 R/pos +0.501 R/wk   87.4 DD   22.1 +blocks 5/5 worst 16.1
+setup: keep top half by trailing 12w                 pos  3009 R/pos +0.477 R/wk   37.0 DD   19.4 +blocks 4/5 worst -10.8
+setup: drop bottom quarter by trailing 12w           pos  3608 R/pos +0.490 R/wk   64.4 DD   21.7 +blocks 4/5 worst -8.3
+setup: size 1.5/1/0.5 by trailing 12w terciles       pos  3713 R/pos +0.502 R/wk   84.3 DD   26.4 +blocks 5/5 worst 2.1
+setup: MIRROR keep only trailing 12w R &lt;= 0          pos  1929 R/pos +0.648 R/wk   25.8 DD    8.4 +blocks 5/5 worst 8.8
+setup: REVERSE size 0.5/1/1.5 (size up what just lost) 12w pos  3713 R/pos +0.502 R/wk  102.3 DD   24.4 +blocks 5/5 worst 41.8
+symbol x frame: keep if trailing 12w R &gt; 0           pos  3653 R/pos +0.502 R/wk   91.3 DD   22.1 +blocks 5/5 worst 20.0
+symbol x frame: keep top half by trailing 12w        pos  1907 R/pos +0.438 R/wk   40.2 DD   30.1 +blocks 4/5 worst -21.8
+symbol x frame: drop bottom quarter by trailing 12w  pos  3180 R/pos +0.466 R/wk   73.0 DD   25.0 +blocks 4/5 worst -7.8
+symbol x frame: size 1.5/1/0.5 by trailing 12w terciles pos  3713 R/pos +0.503 R/wk   91.0 DD   25.9 +blocks 5/5 worst 1.8
+symbol x frame: MIRROR keep only trailing 12w R &lt;= 0 pos   165 R/pos +0.648 R/wk    2.5 DD    7.4 +blocks 5/5 worst 1.8
+symbol x frame: REVERSE size 0.5/1/1.5 (size up what just lost) 12w pos  3713 R/pos +0.502 R/wk   95.5 DD   22.8 +blocks 5/5 worst 42.1
+symbol: keep if trailing 12w R &gt; 0                   pos  3713 R/pos +0.502 R/wk   93.3 DD   22.1 +blocks 5/5 worst 21.9
+symbol: keep top half by trailing 12w                pos  1964 R/pos +0.456 R/wk   44.8 DD   25.9 +blocks 4/5 worst -19.3
+symbol: drop bottom quarter by trailing 12w          pos  2664 R/pos +0.508 R/wk   67.7 DD   22.0 +blocks 4/5 worst -8.9
+symbol: size 1.5/1/0.5 by trailing 12w terciles      pos  3713 R/pos +0.502 R/wk   89.4 DD   23.5 +blocks 5/5 worst 6.8
+symbol: MIRROR keep only trailing 12w R &lt;= 0         (nothing selected)
+symbol: REVERSE size 0.5/1/1.5 (size up what just lost) 12w pos  3713 R/pos +0.502 R/wk   97.2 DD   24.8 +blocks 5/5 worst 37.1
+
+STATIC: everything x1 (from block 4)                 pos  2847 R/pos +0.460 R/wk   81.9 DD   22.1 +blocks 4/4 worst 21.9
+setup: keep if trailing 16w R &gt; 0                    pos  2847 R/pos +0.460 R/wk   79.4 DD   22.1 +blocks 4/4 worst 20.5
+setup: keep top half by trailing 16w                 pos  2301 R/pos +0.455 R/wk   34.7 DD   15.4 +blocks 3/4 worst -0.5
+setup: drop bottom quarter by trailing 16w           pos  2745 R/pos +0.453 R/wk   60.3 DD   22.9 +blocks 4/4 worst 9.7
+setup: size 1.5/1/0.5 by trailing 16w terciles       pos  2847 R/pos +0.461 R/wk   75.9 DD   26.0 +blocks 4/4 worst 13.3
+setup: MIRROR keep only trailing 16w R &lt;= 0          pos   982 R/pos +0.635 R/wk   14.0 DD    6.0 +blocks 4/4 worst 3.4
+setup: REVERSE size 0.5/1/1.5 (size up what just lost) 16w pos  2847 R/pos +0.458 R/wk   87.9 DD   22.2 +blocks 4/4 worst 30.6
+symbol x frame: keep if trailing 16w R &gt; 0           pos  2833 R/pos +0.460 R/wk   81.3 DD   22.1 +blocks 4/4 worst 21.9
+symbol x frame: keep top half by trailing 16w        pos  1540 R/pos +0.411 R/wk   37.1 DD   29.2 +blocks 3/4 worst -7.8
+symbol x frame: drop bottom quarter by trailing 16w  pos  2388 R/pos +0.470 R/wk   69.2 DD   22.3 +blocks 4/4 worst 16.1
+symbol x frame: size 1.5/1/0.5 by trailing 16w terciles pos  2847 R/pos +0.461 R/wk   80.9 DD   26.1 +blocks 4/4 worst 20.7
+symbol x frame: MIRROR keep only trailing 16w R &lt;= 0 pos    81 R/pos +0.783 R/wk    1.0 DD    3.1 +blocks 3/4 worst -0.1
+symbol x frame: REVERSE size 0.5/1/1.5 (size up what just lost) 16w pos  2847 R/pos +0.460 R/wk   82.9 DD   29.2 +blocks 4/4 worst 23.1
+symbol: keep if trailing 16w R &gt; 0                   pos  2847 R/pos +0.460 R/wk   81.9 DD   22.1 +blocks 4/4 worst 21.9
+symbol: keep top half by trailing 16w                pos  1389 R/pos +0.452 R/wk   39.2 DD   17.5 +blocks 4/4 worst 2.6
+symbol: drop bottom quarter by trailing 16w          pos  2019 R/pos +0.447 R/wk   56.4 DD   26.1 +blocks 3/4 worst -6.3
+symbol: size 1.5/1/0.5 by trailing 16w terciles      pos  2847 R/pos +0.460 R/wk   78.9 DD   25.9 +blocks 4/4 worst 8.0
+symbol: MIRROR keep only trailing 16w R &lt;= 0         (nothing selected)
+symbol: REVERSE size 0.5/1/1.5 (size up what just lost) 16w pos  2847 R/pos +0.460 R/wk   84.9 DD   27.2 +blocks 4/4 worst 35.9
+
+</pre><div class="sub">tools\v484_rolling.py - state\v484_rolling.csv - ledger #152 - NOT wired: a sizing change is Paul's to authorize; proposed as a scored challenger beside the book</div></body></html>
